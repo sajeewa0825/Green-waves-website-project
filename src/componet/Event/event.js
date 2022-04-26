@@ -57,7 +57,7 @@ function App() {
                     <div className="spinner"></div>
                 </div>
             ) : (
-                <section className="container">
+                <section className="container3">
                     <h1>Planting Campaine</h1>
                     <div className="countdown">
                         <article>
