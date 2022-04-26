@@ -1,0 +1,72 @@
+.animated-paragraph{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container1{
+    display: flex;
+}
+
+@media (min-width: 1120px) {
+    .container1{
+        margin-bottom: 30vh;
+    }
+    .container1 > div >h1{
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 605px;
+    }
+    .animated-paragraph{
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container1{
+        margin-bottom: 25vh;
+        padding: 0;
+    }
+    .container1 > div >h1{
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 70px;
+    }
+    .animated-paragraph{
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+    }
+  }
+
+  @media (min-width: 975px) {
+    .container1{
+        margin-bottom: 25vh;
+        padding: 0;
+    }
+    .container1 > div >h1{
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+    }
+  }
+
+  @media (min-width: 806px) {
+    .container1{
+        margin-bottom: 20vh;
+        padding: 0;
+    }
+    .container1 > div >h1{
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+    }
+  }
+
+  @media (min-width: 780px) {
+    .container1{
+        margin-bottom: 20vh;
+        padding: 0;
+    }
+  }
+
