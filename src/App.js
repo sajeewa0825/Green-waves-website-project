@@ -5,6 +5,8 @@ import Slide from './componet/Slide/Slide'
 import Card from './componet/Card/Card';
 import { useState, useEffect } from 'react'
 import ClimbingBoxLoader from "react-spinners/ClipLoader";
+import Event from './componet/Event/event'
+
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -28,6 +30,7 @@ function App() {
             <Nav />
             <Slide />
             <Card />
+            <Event/>
           </div>
       }
     </div>
