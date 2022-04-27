@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
+    "mdb-react-ui-kit": "^3.0.0",
     "react": "^18.0.0",
     "react-animated-text-content": "^1.0.1",
     "react-bootstrap": "^2.3.0",

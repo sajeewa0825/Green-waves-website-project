@@ -6,6 +6,7 @@ import Card from './componet/Card/Card';
 import { useState, useEffect } from 'react'
 import Event from './componet/Event/event'
 import { Bars } from  'react-loader-spinner'
+import Footer from './componet/Footer/Footer';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
             <Slide />
             <Card />
             <Event/>
+            <Footer/>
           </div>
       }
     </div>
