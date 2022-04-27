@@ -51,7 +51,8 @@ function App() {
                 </div>
             ) : (
                 <section className="contan1">
-                    <h1>Planting Campaine</h1>
+                        <h1>Planting Campaine</h1>
+                        <p>Time Left</p>
                     <div className="countdown1">
                         <article>
                             <p>{days}</p>

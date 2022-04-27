@@ -58,20 +58,26 @@
     /* background-color:rgb(43, 165, 34) ;
     border-radius: 20px; */
   }
+  .contan1 p{
+    font-size: 40px;
+    margin-bottom: -15px;
+    font-weight: bold;
+    color:rgb(82, 82, 82) ;
+  }
   .countdown1 article{
     margin: 10px;
     margin-top: 50px;
   }
   .countdown1 p{
     padding: 10px;
-    background-color: #2ba522f0;
+    background-color: #2ba52290;
     border-radius: 10px;
     width: 110px;
     box-shadow: 0 5px 5px rgba(18, 73, 6, 0.3);
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color:whitesmoke;
     
     
   } 
