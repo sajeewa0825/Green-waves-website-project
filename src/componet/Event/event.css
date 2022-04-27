@@ -7,7 +7,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
-      background: color #f1f1f1; ;
+
       color: #333 ;
   }
   .loading{
@@ -30,42 +30,55 @@
       transform: rotate(360deg);
     }
   }
-  .container{
+  .contan1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: top;
-    min-height: 100vh;
+    min-height: 300px;
     padding: 0 20px;
+    background-image: url(image/slide3.jpg); 
+    border-radius: 20px;
   }
-  .countdown{
+  .countdown1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     text-align: center;
   }
-  .container h1{
+  .contan1 h1{
     text-transform: uppercase;
     margin-bottom: 30px;
     text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 40px;
+    color: rgb(82, 82, 82);
+    /* background-color:rgb(43, 165, 34) ;
+    border-radius: 20px; */
   }
-  .countdown article{
+  .countdown1 article{
     margin: 10px;
+    margin-top: 50px;
   }
-  .countdown p{
-    padding: 20px;
-    background-color: rgb(43, 165, 34);
+  .countdown1 p{
+    padding: 10px;
+    background-color: #2ba522f0;
     border-radius: 10px;
-    width: 100px;
+    width: 110px;
     box-shadow: 0 5px 5px rgba(18, 73, 6, 0.3);
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
     
     
   } 
-  .countdown h3{
-    font-size: 20px;
+  .countdown1 h3{
+    font-size: 30px;
+    /* background-color: rgb(43, 165, 34); */
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
   }

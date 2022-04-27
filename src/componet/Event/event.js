@@ -1,14 +1,7 @@
 import { useState,useEffect } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './event.css'
-// // import Nav from './componet/Nav/Nav';
-// function App() {
-//     return (
-//         <div>
-//             <Nav/>
-//         </div>
-//     )
-// }
+
 
 function App() {
     const [days, setDays] = useState(10)
@@ -57,9 +50,9 @@ function App() {
                     <div className="spinner"></div>
                 </div>
             ) : (
-                <section className="container">
+                <section className="contan1">
                     <h1>Planting Campaine</h1>
-                    <div className="countdown">
+                    <div className="countdown1">
                         <article>
                             <p>{days}</p>
                             <h3>Days</h3>
@@ -82,6 +75,10 @@ function App() {
         </>
     )
 
+}
+
+function body() {
+    
 }
 
 export default App;
