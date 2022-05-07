@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './event.css'
-// import Section from './section/sec'
+import Section from './section/sec'
 
 
 function App() {
@@ -74,7 +74,7 @@ function App() {
                     </div>
                 </section>
             )}
-            {/* <Section/> */}
+            <Section/>
         </>
     )
 
