@@ -1,15 +1,15 @@
-.photo{
-    border-radius: 10px;
-    margin: 0px;
-    background-image: url(image/p2.jpg);
-    height: 300px;
-    box-shadow: 7px gray;
+.photo {
+  border-radius: 10px;
+  margin: 0px;
+  background-image: url(image/p2.jpg);
+  height: 300px;
+  box-shadow: 7px gray;
 }
 
-.plimg{
-    width: 350px;
-    height: 250px;
+.plimg {
+  width: 350px;
+  height: 250px;
 }
-.raw{
-    margin-top: 5px;
+.raw {
+  margin-top: 5px;
 }
