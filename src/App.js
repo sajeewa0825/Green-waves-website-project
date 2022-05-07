@@ -31,6 +31,7 @@ function App() {
             <Slide />
             <Card />
             <Event/>
+            
           </div>
       }
     </div>
