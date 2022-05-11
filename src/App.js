@@ -5,7 +5,7 @@ import Slide from './componet/Slide/Slide'
 import Card from './componet/Card/Card';
 import { useState, useEffect } from 'react'
 import ClimbingBoxLoader from "react-spinners/ClipLoader";
-import Event from './componet/Event/event'
+import Event from './componet/section/sec'
 
 
 function App() {
