@@ -2,7 +2,8 @@
     margin-top: 0.2875rem;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-    color:white !important;
+    color:black !important;
+    font-weight: 500;
     border-top: 0.1875rem solid rgba(255, 255, 255, 0);
     font-family: 'Roboto', sans-serif;
 }
