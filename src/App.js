@@ -2,7 +2,7 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from './componet/Nav/Nav';
 import Slide from './componet/Slide/Slide'
-import Card from './componet/Card/Card';
+// import Card from './componet/Card/Card';
 import { useState, useEffect } from 'react'
 import ClimbingBoxLoader from "react-spinners/ClipLoader";
 import Event from './componet/section/sec'
@@ -29,7 +29,7 @@ function App() {
           <div>
             <Nav />
             <Slide />
-            <Card />
+            {/* <Card /> */}
             <Event/>
             
           </div>
