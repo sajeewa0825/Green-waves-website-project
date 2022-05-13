@@ -34,8 +34,8 @@ function App() {
             <Nav />
             <Slide />
             <Card />
-            <Event/>
-            <Footer/>
+            {/* <Event/>
+            <Footer/> */}
           </div>
       }
     </div>
