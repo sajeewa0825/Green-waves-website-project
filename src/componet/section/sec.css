@@ -73,7 +73,7 @@ body {
 }
 .blog-card__info {
   z-index: 10;
-  background: white;
+  background: whitesmoke;
   padding: 20px 15px;
 }
 h4 {
@@ -90,7 +90,7 @@ h4 {
   opacity: 3;
 }
 .blog-card__info h4:hover {
-  color: #ffb535;
+  color: green;
 }
 
 a.icon-link {
@@ -99,7 +99,7 @@ a.icon-link {
 }
 
 i {
-  color: #ffb535;
+  color: green;
 }
 .i:hover {
   color: #ffb535;
@@ -124,7 +124,7 @@ i {
   box-shadow: none;
 }
 .btn:hover {
-  background: #ffb535;
+  background: green;
   color: #fff;
 }
 .btn.btn--with-icon {
@@ -137,7 +137,7 @@ i {
   line-height: 50px;
   vertical-align: bottom;
   color: white;
-  background: #ffb535;
+  background: green;
   clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 }
 
