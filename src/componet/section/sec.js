@@ -2,7 +2,8 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './sec.css'
 import Timer from '../timer/timer'
-import EventCard from'./eventCard'
+import EventCard from './eventCard'
+import DoneEvent from './doneEvent'
 
 
 
@@ -41,10 +42,12 @@ function App() {
         </div>
       </article>
     </div>
-  </div>
+          </div>
+          
         </div>
+        <br/>
         
-
+<DoneEvent/>
         
         </div>
     );
