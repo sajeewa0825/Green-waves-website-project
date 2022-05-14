@@ -11,6 +11,7 @@
     "react": "^18.0.0",
     "react-animated-text-content": "^1.0.1",
     "react-bootstrap": "^2.3.0",
+    "react-countdown-circle-timer": "^3.0.9",
     "react-dom": "^18.0.0",
     "react-loader-spinner": "^6.0.0-0",
     "react-router": "^6.3.0",

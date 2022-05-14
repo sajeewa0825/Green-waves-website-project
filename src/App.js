@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react'
 import Event from './componet/Event/event'
 import { Bars } from  'react-loader-spinner'
 import Footer from './componet/Footer/Footer';
+import CountDown from './componet/Timer/Timer';
 
 
 function App() {
@@ -34,8 +35,9 @@ function App() {
             <Nav />
             <Slide />
             <Card />
-            {/* <Event/>
-            <Footer/> */}
+            <CountDown/>
+            {/* <Event/> */}
+            <Footer/>
           </div>
       }
     </div>
