@@ -8,6 +8,7 @@ import Event from './componet/Event/event'
 import { Bars } from  'react-loader-spinner'
 import Footer from './componet/Footer/Footer';
 import CountDown from './componet/Timer/Timer';
+import News from './componet/News/News';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             <Card />
             <CountDown/>
             {/* <Event/> */}
+            {/* <News/> */}
             <Footer/>
           </div>
       }
