@@ -1,16 +1,21 @@
 import React from "react";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import "./styles.css";
+import UseWindowDimensions from "./CatchScreen"
 
 const minuteSeconds = 60;
 const hourSeconds = 3600;
 const daySeconds = 86400;
+
+
 
 const timerProps = {
     isPlaying: true,
     size: 120,
     strokeWidth: 6
 };
+
+
 
 const renderTime = (dimension, time) => {
     return (
@@ -21,15 +26,34 @@ const renderTime = (dimension, time) => {
     );
 };
 
+const sizeSet = () => {
+    const { width } = UseWindowDimensions();
+    console.log(width)
+
+    if(width<600 && width > 450){
+        timerProps.size=100;
+        timerProps.strokeWidth=4;
+    } else if(width<450 && width > 350){
+        timerProps.size=85;
+        timerProps.strokeWidth=4;
+    }else if(width<350 && width > 300){
+        timerProps.size=65;
+        timerProps.strokeWidth=3;
+    }
+
+}
+
+
 const getTimeSeconds = (time) => (minuteSeconds - time) | 0;
 const getTimeMinutes = (time) => ((time % hourSeconds) / minuteSeconds) | 0;
 const getTimeHours = (time) => ((time % daySeconds) / hourSeconds) | 0;
 const getTimeDays = (time) => (time / daySeconds) | 0;
 
 export default function Timer() {
+    sizeSet()
+    console.log(timerProps.size)
     const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
     const endTime = stratTime + 243248; // use UNIX timestamp in seconds
-
     const remainingTime = endTime - stratTime;
     const days = Math.ceil(remainingTime / daySeconds);
     const daysDuration = days * daySeconds;

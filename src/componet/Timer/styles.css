@@ -11,6 +11,26 @@
   font-size: 32px;
 }
 
+@media only screen and (max-width: 550px) {
+    .time{
+      font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+  .time{
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .time{
+    font-size: 15px;
+  }
+}
+
+
+
 .Timeblackline {
   border-top: 1px solid black;
   width: 4% !important;
