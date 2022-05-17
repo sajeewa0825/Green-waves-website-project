@@ -1,0 +1,31 @@
+.container{
+    margin-top: 7%;
+}
+
+.card1{
+    border-radius: 0px 50px 0px 50px;
+    background: #36454F;
+    width: 50vh;
+    height: 60vh;
+    margin-left: 12%;
+  }
+
+  .blacklineAbout{
+      width: 4vh;
+     border-top: 2px solid black;
+     margin-top: -3.7vh;
+     margin-left: 12vh;
+
+  }
+
+  .aboutTopic{
+      margin-top: 4vh;
+  }
+
+  .aboutP{
+      margin-top: 4vh;
+  }
+
+  .aboutContent{
+      margin-top: 8vh;
+  }
