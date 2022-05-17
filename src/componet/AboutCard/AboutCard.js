@@ -7,7 +7,7 @@ const AboutCard = () => {
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div className='card1'></div>
+                        <div className='aboutcard'></div>
                     </div>
                     <div class="col aboutContent">
                         <div>

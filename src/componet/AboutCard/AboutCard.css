@@ -2,12 +2,16 @@
     margin-top: 7%;
 }
 
-.card1{
+.aboutcard{
     border-radius: 0px 50px 0px 50px;
     background: #36454F;
     width: 50vh;
     height: 60vh;
     margin-left: 12%;
+    background-image: url(https://images.pexels.com/photos/7425355/pexels-photo-7425355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .blacklineAbout{
