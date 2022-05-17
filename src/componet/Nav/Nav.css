@@ -2,9 +2,10 @@
     margin-top: 0.2875rem;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-    color:white !important;
+    color:black !important;
     border-top: 0.1875rem solid rgba(255, 255, 255, 0);
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .navbar-nav >li > a.active,.navbar-nav >li > a.active:focus{
@@ -24,7 +25,7 @@ nav a.nav-link{
 }
 
 .navbar-nav >li > a:hover{
-    border-top: 0.1875rem solid #ef4035;
+    border-top: 0.1875rem solid #ee372a;
 }
 
 .navbar-nav{
