@@ -73,7 +73,7 @@ body {
 }
 .blog-card__info {
   z-index: 10;
-  background: whitesmoke;
+  background: rgb(242, 242, 242);
   padding: 20px 15px;
 }
 h4 {
