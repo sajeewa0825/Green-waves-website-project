@@ -1,9 +1,10 @@
 import React from 'react';
 import { MDBFooter } from 'mdb-react-ui-kit';
+import './Footer.css';
 
 export default function App() {
   return (
-    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+    <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
@@ -44,45 +45,26 @@ export default function App() {
               </p>
             </div>
 
-            <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Angular
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  React
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Vue
-                </a>
-              </p>
-            </div>
-
             <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Explore</h6>
               <p>
-                <a href='#!' className='text-reset'>
-                  Wikipidia
+                <a href='#!' className='text-reset' >
+                  Home
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  who
+                  Event
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  plant
+                  Work
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Help
+                  About
                 </a>
               </p>
             </div>

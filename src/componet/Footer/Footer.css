@@ -1,0 +1,9 @@
+.text-reset{
+    --bs-text-opacity: 1;
+    color: inherit!important;
+    text-decoration: none;
+}
+
+h6{
+    color: white;
+}
