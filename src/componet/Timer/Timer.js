@@ -37,7 +37,7 @@ const sizeSet = () => {
         timerProps.size=80;
         timerProps.strokeWidth=4;
     }else if(width<350 && width > 300){
-        timerProps.size=65;
+        timerProps.size=60;
         timerProps.strokeWidth=3;
     }
 
