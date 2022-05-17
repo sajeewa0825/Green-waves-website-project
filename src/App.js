@@ -9,6 +9,7 @@ import { Bars } from  'react-loader-spinner'
 import Footer from './componet/Footer/Footer';
 import CountDown from './componet/Timer/Timer';
 import AboutCard from './componet/AboutCard/AboutCard';
+import Wedo from './componet/WeDoSections/Wedo';
 
 
 function App() {
@@ -36,8 +37,9 @@ function App() {
             <Nav />
             <Slide />
             <AboutCard/>
-            <Card />
+            <Wedo/>
             <CountDown/>
+            <Card />
             {/* <Event/> */}
             <Footer/>
           </div>

@@ -12,14 +12,14 @@
 }
 
 .Timeblackline {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   width: 4% !important;
   margin-top: 1%;
   margin-left: -22%;
 }
 
 .TimeblacklineRight {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   width: 4% !important;
   margin-top: 1%;
   margin-left: -35%;

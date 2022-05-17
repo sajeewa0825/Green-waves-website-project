@@ -1,0 +1,47 @@
+.box {
+    margin-top: 5vh;
+    width: 100%;
+    height: 80vh;
+    background-color: #F5F5F5
+}
+
+.Wedocard {
+    margin-top: 12%;
+    border-radius: 0px 60px 0px 60px;
+    width: 50vh;
+    height: 60vh;
+    margin-left: 20%;
+    background-image: url(https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.WedoContent {
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+.blacklineWedo {
+    width: 4vh;
+    border-top: 2px solid black;
+    margin-top: -3.7vh;
+    margin-left: 15vh;
+}
+
+.wedoh1{
+    margin-top: 4%;
+}
+
+.wedolorem{
+    margin-top: 3%;
+}
+
+.wedolorem2{
+    width: 60vh;
+    margin-left: 15%;
+}
+
+.wedolorem2sub{
+    margin-top: 2%;
+}

@@ -24,13 +24,13 @@
 }
 
 .blackline {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   margin-top: 4%;
   width: 10%;
 }
 
 .blacklineRight {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   margin-top: 4%;
   width: 10%;
   margin-left: -4%;
