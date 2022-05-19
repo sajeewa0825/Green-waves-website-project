@@ -1,8 +1,8 @@
-.container{
+.container {
     margin-top: 7%;
 }
 
-.aboutcard{
+.aboutcard {
     border-radius: 0px 60px 0px 60px;
     background: #36454F;
     width: 50vh;
@@ -12,24 +12,194 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
 
-  .blacklineAbout{
-      width: 4vh;
-     border-top: 2px solid black;
-     margin-top: -3.7vh;
-     margin-left: 12vh;
+.blacklineAbout {
+    width: 4vh;
+    border-top: 2px solid black;
+    margin-top: -3.7vh;
+    margin-left: 12vh;
 
-  }
+}
 
-  .aboutTopic{
-      margin-top: 4vh;
-  }
+.aboutTopic {
+    margin-top: 4vh;
+}
 
-  .aboutP{
-      margin-top: 4vh;
-  }
+.aboutP {
+    margin-top: 4vh;
+}
 
-  .aboutContent{
-      margin-top: 8vh;
-  }
+.aboutContent {
+    margin-top: 8vh;
+}
+
+@media screen and (max-width: 992px) {
+    .aboutcard {
+        margin-top: 18%;
+        width: 50vh;
+        height: 62vh;
+        margin-left: -20%;
+    }
+    .blacklineAbout{
+        margin-left: 10vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .aboutcard {
+        margin-top: 18%;
+        width: 40vh;
+        height: 52vh;
+        margin-left: -1%;
+    }
+
+    .blacklineAbout{
+        margin-left: 10vh;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .aboutcard {
+        margin-top: 4%;
+        width: 35vh;
+        height: 48vh;
+        margin-left: -10%;
+    }
+
+    .aboutTopic>h1 {
+        font-size: 20px !important;
+    }
+
+    .aboutTopic {
+        margin-top: 1vh;
+    }
+
+    .aboutP {
+        margin-top: 2vh;
+    }
+
+    .aboutP >p{
+        font-size: 15px;
+    }
+
+    .aboutContent {
+        margin-top: 1vh;
+    }
+    .blacklineAbout{
+        margin-left: 10vh;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+    .aboutcard {
+        margin-top: 4%;
+        width: 30vh;
+        height: 38vh;
+        margin-left: 10%;
+    }
+
+    .aboutTopic>h1 {
+        font-size: 15px ;
+    }
+
+    .aboutTopic {
+        margin-top: 1vh;
+    }
+
+    .aboutP {
+        margin-top: 2vh;
+    }
+
+    .aboutP >p{
+        font-size: 12px;
+    }
+
+    .aboutContent {
+        margin-top: 1vh;
+    }
+    .blacklineAbout{
+        margin-left: 10vh;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .aboutcard {
+        margin-top: 4%;
+        width: 25vh;
+        height: 28vh;
+        margin-left: 10%;
+    }
+
+    .aboutTopic>h1 {
+        font-size: 12px ;
+    }
+
+    .aboutTopic {
+        margin-top: 1vh;
+    }
+
+    .aboutP {
+        margin-top: 2vh;
+    }
+
+    .aboutP >p{
+        font-size: 8px;
+    }
+
+    .aboutContent {
+        margin-top: 1vh;
+    }
+
+    .btn{
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: -2%;
+    }
+
+    .blacklineAbout{
+        margin-left: 10vh;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .aboutcard {
+        margin-top: 4%;
+        width: 20vh;
+        height: 30vh;
+        margin-left: -1%;
+    }
+
+    .aboutTopic>h1 {
+        font-size: 12px !important;
+    }
+
+    .aboutTopic {
+        margin-top: 2vh;
+    }
+
+    .aboutP {
+        margin-top: 2vh;
+    }
+
+    .aboutP >p{
+        font-size: 8px;
+    }
+
+    .aboutContent {
+        margin-top: 1vh;
+    }
+
+    .btn{
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: -2%;
+    }
+
+    .blacklineAbout{
+        margin-left: 10vh;
+    }
+}
