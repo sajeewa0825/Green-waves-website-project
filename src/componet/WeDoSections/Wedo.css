@@ -29,19 +29,445 @@
     margin-left: 15vh;
 }
 
-.wedoh1{
+.wedoh1 {
     margin-top: 4%;
 }
 
-.wedolorem{
+.wedolorem {
     margin-top: 3%;
 }
 
-.wedolorem2{
+.wedolorem2 {
     width: 60vh;
     margin-left: 15%;
 }
 
-.wedolorem2sub{
+.wedolorem2sub {
     margin-top: 2%;
 }
+
+@media screen and (max-width: 1200px) {
+    .WedoContent {
+        margin-left: 8%;
+    }
+
+    .Wedocard {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .WedoContent {
+        margin-left: 5%;
+    }
+
+    .Wedocard {
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .WedoContent {
+        margin-left: 5%;
+    }
+
+    .Wedocard {
+        margin-left: -5%;
+        width: 45vh;
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width: 833px) {
+    .WedoContent {
+        margin-left: 3%;
+    }
+
+    .Wedocard {
+        margin-top: 25%;
+        margin-left: -5%;
+        width: 35vh;
+        height: 50vh;
+    }
+
+    .wedoh1 > h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .WedoContent {
+        margin-left: 3%;
+        width: 40vh;
+    }
+
+    .Wedocard {
+        margin-top: 15%;
+        margin-left: 1%;
+        width: 40vh;
+        height: 50vh;
+    }
+
+    .wedoh1 > h1{
+        font-size: 20px;
+    }
+
+    .wedolorem > p{
+        font-size: 12px;
+    }
+
+    .wedolorem2sub >h5{
+        font-size: 15px;
+    }
+
+    .wedolorem2sub >p{
+        font-size: 12px;
+    }
+
+    .wedolorem2{
+        margin-left: 15%;
+        width: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 643px) {
+    .WedoContent {
+        margin-left: 3%;
+        width: 30vh;
+    }
+
+    .Wedocard {
+        margin-top: 20%;
+        margin-left: 7%;
+        width: 35vh;
+        height: 45vh;
+    }
+
+    .wedolorem2{
+        margin-left: 10%;
+        width: 35vh;
+    }
+
+}
+
+@media screen and (max-width: 611px) {
+    .WedoContent {
+        margin-left: 3%;
+        width: 40vh;
+    }
+
+    .Wedocard {
+        margin-top: 15%;
+        margin-left: -10%;
+        width: 30vh;
+        height: 40vh;
+    }
+
+    .wedoh1 > h1{
+        font-size: 15px;
+    }
+
+    .wedolorem > p{
+        font-size: 8px;
+    }
+
+    .wedolorem2sub >h5{
+        font-size: 11px;
+    }
+
+    .wedolorem2sub >p{
+        font-size: 8px;
+    }
+
+    .wedolorem2{
+        margin-left: 5%;
+        width: 30vh;
+    }
+
+    .wedolorem, .wedoh1{
+        width: 35vh
+    }
+
+    .box{
+        height: 55vh;
+    }
+
+}
+
+@media screen and (max-width: 521px) {
+    .WedoContent {
+        margin-left: 3%;
+        width: 40vh;
+    }
+
+    .Wedocard {
+        margin-top: 15%;
+        margin-left: -10%;
+        width: 25vh;
+        height: 40vh;
+    }
+
+    .wedoh1 > h1{
+        font-size: 15px;
+    }
+
+    .wedolorem > p{
+        font-size: 8px;
+    }
+
+    .wedolorem2sub >h5{
+        font-size: 11px;
+    }
+
+    .wedolorem2sub >p{
+        font-size: 8px;
+    }
+
+    .wedolorem2{
+        margin-left: 5%;
+        width: 30vh;
+    }
+
+    .wedolorem, .wedoh1{
+        width: 35vh
+    }
+
+    .box{
+        height: 55vh;
+    }
+
+}
+
+
+@media screen and (max-width: 485px) {
+    .WedoContent {
+        margin-left: 10%;
+        width: 40vh;
+    }
+
+    .Wedocard {
+        margin-top: 15%;
+        margin-left: -5%;
+        width: 20vh;
+        height: 30vh;
+    }
+
+    .wedoh1 > h1{
+        font-size: 12px;
+    }
+
+    .wedolorem > p{
+        font-size: 6px;
+    }
+
+    .wedolorem2sub >h5{
+        font-size: 9px;
+    }
+
+    .wedolorem2sub >p{
+        font-size: 6px;
+    }
+
+    .wedolorem2{
+        margin-left: 5%;
+        width: 20vh;
+    }
+
+    .wedolorem, .wedoh1{
+        width: 23vh
+    }
+
+    .box{
+        height: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 403px) {
+    .WedoContent {
+        margin-left: 10%;
+        width: 40vh;
+    }
+
+    .Wedocard {
+        margin-top: 20%;
+        margin-left: -10%;
+        width: 17vh;
+        height: 25vh;
+    }
+
+    .wedoh1 > h1{
+        font-size: 12px;
+    }
+
+    .wedolorem > p{
+        font-size: 6px;
+    }
+
+    .wedolorem2sub >h5{
+        font-size: 9px;
+    }
+
+    .wedolorem2sub >p{
+        font-size: 6px;
+    }
+
+    .wedolorem2{
+        margin-left: 5%;
+        width: 20vh;
+    }
+
+    .wedolorem, .wedoh1{
+        width: 21vh
+    }
+
+    .box{
+        height: 30vh;
+    }
+
+    .wedoh1{
+        margin-top: 2vh;
+    }
+
+    .blacklineWedo {
+        margin-left: 13vh;
+        margin-top: -3.5vh;
+    }
+
+}
+
+@media screen and (max-width: 379px) {
+    .WedoContent {
+        margin-left: 5%;
+        width: 40vh;
+    }
+
+    .Wedocard {
+        margin-top: 40%;
+        margin-left: -10%;
+        width: 17vh;
+        height: 25vh;
+    }
+
+    .wedoh1 > h1{
+        font-size: 12px;
+    }
+
+    .wedolorem > p{
+        font-size: 6px;
+    }
+
+    .wedolorem2sub >h5{
+        font-size: 9px;
+    }
+
+    .wedolorem2sub >p{
+        font-size: 6px;
+    }
+
+    .wedolorem2{
+        margin-left: 5%;
+        width: 20vh;
+    }
+
+    .wedolorem, .wedoh1{
+        width: 25vh
+    }
+
+    .box{
+        height: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 359px) {
+    .WedoContent {
+        margin-left: 4%;
+        width: 40vh;
+    }
+
+    .Wedocard {
+        margin-top: 50%;
+        margin-left: -15%;
+        width: 15vh;
+        height: 25vh;
+    }
+
+    .wedoh1 > h1{
+        font-size: 12px;
+    }
+
+    .wedolorem > p{
+        font-size: 6px;
+    }
+
+    .wedolorem2sub >h5{
+        font-size: 9px;
+    }
+
+    .wedolorem2sub >p{
+        font-size: 6px;
+    }
+
+    .wedolorem2{
+        margin-left: 5%;
+        width: 20vh;
+    }
+
+    .wedolorem, .wedoh1{
+        width: 25vh
+    }
+
+    .box{
+        height: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .WedoContent {
+        margin-left: 4%;
+        width: 40vh;
+    }
+
+    .Wedocard {
+        margin-top: 60%;
+        margin-left: -5%;
+        width: 15vh;
+        height: 20vh;
+    }
+
+    .wedoh1 > h1{
+        font-size: 12px;
+    }
+
+    .wedolorem > p{
+        font-size: 6px;
+    }
+
+    .wedolorem2sub >h5{
+        font-size: 9px;
+    }
+
+    .wedolorem2sub >p{
+        font-size: 6px;
+    }
+
+    .wedolorem2{
+        margin-left: 5%;
+        width: 20vh;
+    }
+
+    .wedolorem, .wedoh1{
+        width: 20vh
+    }
+
+    .box{
+        height: 40vh;
+    }
+
+}
+
+
+
