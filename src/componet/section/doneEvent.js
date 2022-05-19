@@ -1,120 +1,74 @@
 import React from "react";
-import Image from "./image/p2.jpg";
+import "./doneEvent.css";
+import Im1 from "./image/forest.jpg";
 
 const donEvent = () => {
   return (
     <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
-            <div class="card">
-              <img src={Image} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                  <div class="collapse" id="collapseExample1">
-                    Some placeholder content for the collapse component. This
-                    panel is hidden by default but revealed when the user
-                    activates the relevant trigger.
-                  </div>
-                </p>
-                <a
-                  class="btn btn--with-icon"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample1"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample1"
-                >
-                  <i class="btn-icon fa fa-long-arrow-right"></i>READ MORE
-                </a>
-              </div>
+      <header>
+        <div class="curve">
+          <h1>Our Previous Campaings</h1>
+        </div>
+      </header>
+
+      {/* event card create */}
+      <br />
+      <div class="card mb-3" style={{ marginLeft: "3px" }}>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src={Im1} class="img-fluid rounded-start" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src={Image} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                  <div class="collapse" id="collapseExample2">
-                    Some placeholder content for the collapse component. This
-                    panel is hidden by default but revealed when the user
-                    activates the relevant trigger.
-                  </div>
-                </p>
-                <a
-                  class="btn btn--with-icon"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample2"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  <i class="btn-icon fa fa-long-arrow-right"></i>READ MORE
-                </a>
-              </div>
+        </div>
+      </div>
+      <div class="card mb-3" style={{ marginLeft: "3px" }}>
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src={Im1} class="img-fluid rounded-start" alt="..." />
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src={Image} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
-                  <div class="collapse" id="collapseExample3">
-                    Some placeholder content for the collapse component. This
-                    panel is hidden by default but revealed when the user
-                    activates the relevant trigger.
-                  </div>
-                </p>
-                <a
-                  class="btn btn--with-icon"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample3"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample3"
-                >
-                  <i class="btn-icon fa fa-long-arrow-right"></i>READ MORE
-                </a>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="card mb-3" style={{ marginLeft: "3px" }}>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src={Im1} class="img-fluid rounded-start" alt="..." />
           </div>
-          <div class="col">
-            <div class="card">
-              <img src={Image} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                  <div class="collapse" id="collapseExample">
-                    Some placeholder content for the collapse component. This
-                    panel is hidden by default but revealed when the user
-                    activates the relevant trigger.
-                  </div>
-                </p>
-                <a
-                  class="btn btn--with-icon"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  <i class="btn-icon fa fa-long-arrow-right"></i>READ MORE
-                </a>
-              </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
             </div>
           </div>
         </div>
