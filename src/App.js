@@ -10,7 +10,7 @@ import Footer from './componet/Footer/Footer';
 import CountDown from './componet/Timer/Timer';
 import AboutCard from './componet/AboutCard/AboutCard';
 import Wedo from './componet/WeDoSections/Wedo';
-import Blog from './componet/Blog/Blog';
+import BlogCard from './componet/BlogCard/BlogCard';
 
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
             <Wedo/>
             <CountDown/>
             <Card />
-            <Blog/>
+            <BlogCard/>
             {/* <Event/> */}
             <Footer/>
           </div>
