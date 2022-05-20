@@ -1,3 +1,9 @@
 .spiner{
     margin-top: 30%;
 }
+
+@media screen and (min-width: 1285px) {
+    .spiner{
+        margin-top: 20%;
+    }
+}

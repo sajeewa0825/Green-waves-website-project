@@ -39,10 +39,9 @@ function App() {
             <Slide />
             <AboutCard/>
             <Wedo/>
-            <CountDown/>
             <Card />
             <BlogCard/>
-            {/* <Event/> */}
+            <CountDown/>
             <Footer/>
           </div>
       }
