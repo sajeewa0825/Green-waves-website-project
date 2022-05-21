@@ -22,10 +22,10 @@ body {
   display: block;
   background-image: linear-gradient(
       to right bottom,
-      #70c174,
-      rgba(77, 255, 0, 0.266)
+      #000000,
+      rgba(92, 92, 92, 0.266)
     ),
-    url("image/forest.jpg");
+    url("image/forest1.jpg");
   position: absolute;
   left: 50%;
   bottom: 0;
