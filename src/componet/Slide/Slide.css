@@ -70,3 +70,12 @@
     }
   }
 
+  @media (max-width: 400px) {
+    .container1{
+        margin-bottom: -3vh;
+        padding: 0;
+    }
+  }
+
+
+
