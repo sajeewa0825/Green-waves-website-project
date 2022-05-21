@@ -1,6 +1,6 @@
 import React from "react";
 import "./doneEvent.css";
-import Im1 from "./image/forest.jpg";
+import Im1 from "./image/forest1.jpg";
 
 const donEvent = () => {
   return (
