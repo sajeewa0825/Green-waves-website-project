@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.curve {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 3rem 2rem;
+  width: 100%;
+  z-index: 2;
+}
+.curve::before {
+  content: "";
+  display: block;
+  background-image: linear-gradient(
+      to right bottom,
+      #70c174,
+      rgba(77, 255, 0, 0.266)
+    ),
+    url("image/forest.jpg");
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  border-radius: 150vw;
+  width: 300vw;
+  height: 300vw;
+  z-index: -1;
+}
