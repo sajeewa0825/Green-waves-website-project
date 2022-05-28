@@ -1,37 +1,182 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
+.blog-card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1rem auto;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.6%;
+  background: #fff;
+  line-height: 1.4;
   font-family: sans-serif;
-  margin: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 0;
+}
+.blog-card a {
+  color: inherit;
+}
+.blog-card1 a:hover {
+  color: #5ad67d;
+}
+.blog-card1:hover .photo1 {
+  transform: scale(1.3) rotate(3deg);
+}
+.blog-card1:hover .photo2 {
+  transform: scale(1.3) rotate(3deg);
+}
+.blog-card1 .meta {
+  position: relative;
+  z-index: 0;
+  height: 200px;
+}
+.blog-card1 .photo1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.2s;
+  background-image: url(image/forest1.jpg);
+}
+.blog-card1 .photo2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.2s;
+  background-image: url(image/forest1.jpg);
+}
+.blog-card1 .details,
+.blog-card1 .details ul {
+  margin: auto;
   padding: 0;
+  list-style: none;
+}
+.blog-card1 .details {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  margin: auto;
+  transition: left 0.2s;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+.blog-card1 .details a {
+  text-decoration: none;
+}
+.blog-card1 .details ul li {
+  display: inline-block;
 }
 
-.curve {
-  color: white;
-  position: relative;
-  overflow: hidden;
+.blog-card1 .details .date:before {
+  font-family: FontAwesome;
+  margin-right: 10px;
+  content: "\f133";
   text-align: center;
-  padding: 3rem 2rem;
-  width: 100%;
-  z-index: 2;
 }
-.curve::before {
+
+.blog-card1 .description {
+  padding: 1rem;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+.blog-card1 .description h1,
+.blog-card1.description h2 {
+  font-family: Poppins, sans-serif;
+}
+.blog-card1 .description h1 {
+  line-height: 1;
+  margin: 0;
+  font-size: 1.7rem;
+}
+.blog-card1.description h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #a2a2a2;
+  margin-top: 5px;
+}
+.blog-card .description .read-more {
+  text-align: right;
+}
+.blog-card1 .description .read-more a {
+  color: #5ad67d;
+  display: inline-block;
+  position: relative;
+}
+.blog-card1 .description .read-more a:after {
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+  transition: margin 0.3s, opacity 0.3s;
+}
+.blog-card1 .description .read-more a:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
+.blog-card1 p {
+  position: relative;
+  margin: 1rem 0 0;
+}
+.blog-card1 p:first-of-type {
+  margin-top: 1.25rem;
+}
+.blog-card1 p:first-of-type:before {
   content: "";
-  display: block;
-  background-image: linear-gradient(
-      to right bottom,
-      #000000,
-      rgba(92, 92, 92, 0.266)
-    ),
-    url("image/forest1.jpg");
   position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  border-radius: 150vw;
-  width: 300vw;
-  height: 300vw;
-  z-index: -1;
+  height: 5px;
+  background: #5ad67d;
+  width: 135px;
+  top: -0.75rem;
+  border-radius: 3px;
+}
+.blog-card1:hover .details {
+  left: 0%;
+}
+@media (min-width: 640px) {
+  .blog-card1 {
+    flex-direction: row;
+    max-width: 700px;
+  }
+  .blog-card1 .meta {
+    flex-basis: 40%;
+    height: auto;
+  }
+  .blog-card1 .description {
+    flex-basis: 60%;
+  }
+  .blog-card1 .description:before {
+    transform: skewX(-3deg);
+    content: "";
+    background: #fff;
+    width: 30px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .blog-card1.alt {
+    flex-direction: row-reverse;
+  }
+  .blog-card1.alt .description:before {
+    left: inherit;
+    right: -10px;
+    transform: skew(3deg);
+  }
+  .blog-card1.alt .details {
+    padding-left: 25px;
+  }
 }
