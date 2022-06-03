@@ -26,7 +26,7 @@ const donEvent = () => {
                   nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
                 </p>
                 <p class="read-more">
-                  <a href="#">Read More</a>
+                  <a href="#">Read More...</a>
                 </p>
               </div>
             </div>
@@ -48,7 +48,7 @@ const donEvent = () => {
                   nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
                 </p>
                 <p class="read-more">
-                  <a href="#">Read More</a>
+                  <a href="#">Read More...</a>
                 </p>
               </div>
             </div>
