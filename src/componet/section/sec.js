@@ -8,6 +8,7 @@ import DoneEvent from "./doneEvent";
 function App() {
   return (
     <div>
+      <h1>Upcomming Event</h1>
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -44,10 +45,10 @@ function App() {
                 </p>
                 <div class="container justify-content-center">
                   <div class="row justify-content-md-center">
-                    <div class="col-sm-12">
+                    <div class="col-lg-9">
                       <EventCard />
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-lg-4">
                       <Timer />
                     </div>
                   </div>

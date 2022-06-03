@@ -1,6 +1,9 @@
 .spiner{
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    margin-top: 120px;
+    margin-top: 30%;
+}
+
+@media screen and (min-width: 1285px) {
+    .spiner{
+        margin-top: 20%;
+    }
 }

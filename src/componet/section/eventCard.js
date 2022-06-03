@@ -2,6 +2,7 @@ import React from "react";
 import Place from "../section/image/SVG/map.svg";
 import clock from "../section/image/SVG/icon-clock.svg";
 import Calendar from "../section/image/SVG/clander.svg";
+import "./eventCard.css";
 
 const eventCard = () => {
   return (

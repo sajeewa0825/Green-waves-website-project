@@ -1,119 +1,55 @@
 import React from "react";
-import Image from "./image/p2.jpg";
+import "./doneEvent.css";
+import Im1 from "./image/forest1.jpg";
+import reportWebVitals from "./../../reportWebVitals";
 
 const donEvent = () => {
   return (
     <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
-            <div class="card">
-              <img src={Image} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                  <div class="collapse" id="collapseExample1">
-                    Some placeholder content for the collapse component. This
-                    panel is hidden by default but revealed when the user
-                    activates the relevant trigger.
-                  </div>
+      <h1>Events</h1>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-6">
+            <div class="blog-card1">
+              <div class="meta">
+                <div class="photo1"></div>
+                <ul class="details">
+                  <li class="date">Aug. 24, 2015</li>
+                </ul>
+              </div>
+              <div class="description">
+                <h1>Learning to Code</h1>
+                <h2>Opening a door to the future</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                  eum dolorum architecto obcaecati enim dicta praesentium, quam
+                  nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
                 </p>
-                <a
-                  class="btn btn--with-icon"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample1"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample1"
-                >
-                  <i class="btn-icon fa fa-long-arrow-right"></i>READ MORE
-                </a>
+                <p class="read-more">
+                  <a href="#">Read More...</a>
+                </p>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src={Image} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                  <div class="collapse" id="collapseExample2">
-                    Some placeholder content for the collapse component. This
-                    panel is hidden by default but revealed when the user
-                    activates the relevant trigger.
-                  </div>
-                </p>
-                <a
-                  class="btn btn--with-icon"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample2"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  <i class="btn-icon fa fa-long-arrow-right"></i>READ MORE
-                </a>
+          <div className="col-lg-6">
+            <div class="blog-card1 alt">
+              <div class="meta">
+                <div class="photo2"></div>
+                <ul class="details">
+                  <li class="date">July. 15, 2015</li>
+                </ul>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src={Image} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
-                  <div class="collapse" id="collapseExample3">
-                    Some placeholder content for the collapse component. This
-                    panel is hidden by default but revealed when the user
-                    activates the relevant trigger.
-                  </div>
+              <div class="description">
+                <h1>Mastering the Language</h1>
+                <h2>Java is not the same as JavaScript</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                  eum dolorum architecto obcaecati enim dicta praesentium, quam
+                  nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
                 </p>
-                <a
-                  class="btn btn--with-icon"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample3"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample3"
-                >
-                  <i class="btn-icon fa fa-long-arrow-right"></i>READ MORE
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src={Image} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                  <div class="collapse" id="collapseExample">
-                    Some placeholder content for the collapse component. This
-                    panel is hidden by default but revealed when the user
-                    activates the relevant trigger.
-                  </div>
+                <p class="read-more">
+                  <a href="#">Read More...</a>
                 </p>
-                <a
-                  class="btn btn--with-icon"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  <i class="btn-icon fa fa-long-arrow-right"></i>READ MORE
-                </a>
               </div>
             </div>
           </div>
