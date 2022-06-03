@@ -1,16 +1,13 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Nav from './componet/Nav/Nav';
-import Slide from './componet/Slide/Slide'
-import Card from './componet/Card/Card';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from 'react'
-import Event from './componet/Event/event'
 import { Bars } from  'react-loader-spinner'
+
+import Nav from './componet/Nav/Nav';
 import Footer from './componet/Footer/Footer';
 import CountDown from './componet/Timer/Timer';
-import AboutCard from './componet/AboutCard/AboutCard';
-import Wedo from './componet/WeDoSections/Wedo';
-import BlogCard from './componet/BlogCard/BlogCard';
+import Home from './componet/Homepage/Home';
 
 
 function App() {
@@ -35,14 +32,14 @@ function App() {
           </div>
           :
           <div>
-            <Nav />
-            <Slide />
-            <AboutCard/>
-            <Wedo/>
-            <Card />
-            <BlogCard/>
-            <CountDown/>
-            <Footer/>
+            <BrowserRouter>
+              <Nav />
+              <Routes>
+                <Route path='Time' element={<CountDown/>} />
+                <Route path='/' element={<Home />} />
+              </Routes>
+              <Footer/>
+            </BrowserRouter>
           </div>
       }
     </div>
