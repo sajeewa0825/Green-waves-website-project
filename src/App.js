@@ -39,7 +39,7 @@ function App() {
             <Slide />
             <AboutCard/>
             <Wedo/>
-            {/* <Card /> */}
+            <Card />
             <BlogCard/>
             <CountDown/>
             <Footer/>
