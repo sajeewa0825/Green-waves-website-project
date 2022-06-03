@@ -17,7 +17,7 @@ const Nav = () => {
           <Link className='nav-link' to={"/"}>Home</Link>
         </li>
         <li className="nav-item">
-          <Link className='nav-link' to={"/Time"}>EVENT</Link>
+          <Link className='nav-link' to={"/Time"}>Event</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Work</a>

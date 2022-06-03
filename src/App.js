@@ -7,6 +7,7 @@ import { Bars } from  'react-loader-spinner'
 import Nav from './componet/Nav/Nav';
 import Footer from './componet/Footer/Footer';
 import Home from './componet/Homepage/Home';
+import Event from './componet/section/sec'
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
             <BrowserRouter>
               <Nav />
               <Routes>
-                {/* <Route path='Time' element={<CountDown/>} /> */}
+                <Route path='Time' element={<Event/>} />
                 <Route path='/' element={<Home />} />
               </Routes>
               <Footer/>
