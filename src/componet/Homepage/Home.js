@@ -6,6 +6,7 @@ import Wedo from '../WeDoSections/Wedo'
 
 
 
+
 const Home =()=>{
     return(
         <div>
