@@ -8,6 +8,7 @@ import Nav from './componet/Nav/Nav';
 import Footer from './componet/Footer/Footer';
 import Home from './componet/Homepage/Home';
 import Event from './componet/section/sec'
+import WhatWeDo from './componet/WhatWeDo/WhatWedo';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
               <Nav />
               <Routes>
                 <Route path='Time' element={<Event/>} />
+                <Route path='work' element={<WhatWeDo/>} />
                 <Route path='/' element={<Home />} />
               </Routes>
               <Footer/>
