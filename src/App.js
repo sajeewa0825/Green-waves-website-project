@@ -6,6 +6,7 @@ import Card from './componet/Card/Card';
 import { useState, useEffect } from 'react'
 import ClimbingBoxLoader from "react-spinners/ClipLoader";
 import Event from './componet/Event/event'
+import ContactUs from'./componet/contactUs/contactUs'
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
       {
         loading ?
           <div className='spiner'>
-            <ClimbingBoxLoader color={'#36D7B7'} loading={loading}  size={150} />
+            <ClimbingBoxLoader color={'#36D7B7'} loading={loading} size={150} />
 
           </div>
           :
@@ -30,7 +31,8 @@ function App() {
             <Nav />
             <Slide />
             <Card />
-            <Event/>
+            <Event />
+            <ContactUs />
           </div>
       }
     </div>
