@@ -1,3 +1,7 @@
+.navbar {
+    background: transparent !important;
+}
+
 .navbar-nav >li >a{
     margin-top: 0.2875rem;
     margin-left: 0.75rem;
@@ -6,22 +10,26 @@
     border-top: 0.1875rem solid rgba(255, 255, 255, 0);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    
 }
 
 .navbar-nav >li > a.active,.navbar-nav >li > a.active:focus{
     border-top: 0.1875rem solid #f9ab00;
+    
 
 }
 
 .navbar-brand{
     padding: 0 !important;
     max-width: 17.25rem;
+    
 }
 
 nav a.nav-link{
     font-size: 1rem;
     cursor: pointer;
     letter-spacing: 0.0375rem;
+    
 }
 
 .navbar-nav >li > a:hover{
@@ -30,4 +38,5 @@ nav a.nav-link{
 
 .navbar-nav{
     height: 50%;
+    
 }

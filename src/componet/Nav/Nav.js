@@ -1,5 +1,6 @@
 import React from 'react'
 import './Nav.css';
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -13,13 +14,13 @@ const Nav = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto ">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Home</a>
+          <Link className='nav-link' to={"/"}>Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Event</a>
+          <Link className='nav-link' to={"/Time"}>Event</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Work</a>
+        <Link className='nav-link' to={"/work"}>What</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Blog</a>
