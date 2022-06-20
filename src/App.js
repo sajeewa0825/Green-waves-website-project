@@ -9,6 +9,7 @@ import Footer from './componet/Footer/Footer';
 import Home from './componet/Homepage/Home';
 import Event from './componet/section/sec'
 import WhatWeDo from './componet/WhatWeDo/WhatWedo';
+import OurTeam from './componet/OurTeam/OurTeam';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
               <Routes>
                 <Route path='Time' element={<Event/>} />
                 <Route path='work' element={<WhatWeDo/>} />
+                <Route path='about' element={<OurTeam/>} />
                 <Route path='/' element={<Home />} />
               </Routes>
               <Footer/>
