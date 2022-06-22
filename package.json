@@ -10,11 +10,12 @@
     "mdb-react-ui-kit": "^3.0.0",
     "react": "^18.0.0",
     "react-animated-text-content": "^1.0.1",
-    "react-bootstrap": "^2.3.0",
+    "react-bootstrap": "^2.4.0",
     "react-countdown-circle-timer": "^3.0.9",
     "react-dom": "^18.0.0",
     "react-loader-spinner": "^6.0.0-0",
     "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
