@@ -1,96 +1,84 @@
 import React from "react";
 import "./styleContact.css";
-import Img1 from "./img1.png";
 
 const ContactUs = () => {
   return (
     <div>
-      <div className="section">
-        <div class="container">
-          <div class="contactinfo">
-            <div>
-              <h2>Contact Info</h2>
-              <ul class="info">
-                <li>
-                  <span>
-                    <img src="placeholder.png" width="40" height="40" />
-                  </span>
-                  <span>
-                    2912 Meadowbrrok Road
-                    <br />
-                    Los Angeles, CA
-                    <br />
-                    900147
-                  </span>
-                </li>
-                <li>
-                  <span>
-                    <img src="email.png" width="40" height="40" />
-                  </span>
-                  <span>lorem@ipsum.com</span>
-                </li>
-                <li>
-                  <span>
-                    <img src="call.png" width="40" height="40" />
-                  </span>
-                  <span>342-256-9542</span>
-                </li>
-              </ul>
-            </div>
-            <ul class="sci">
-              <li>
-                <a href="#">
-                  <img src={Img1} width="30" height="30" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img2.png" width="30" height="30" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img3.png" width="30" height="30" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img4.png" width="30" height="30" />
-                </a>
-              </li>
-            </ul>
+      <div class="container">
+        <div className="row">
+          <div className="col-md-8">
+            <h1>Contact us</h1>
+            <form class="row g-3">
+              <div className="row">
+                <div class="col">
+                  <label for="inputName" class="form-label">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Ex:Jhone"
+                    aria-label="Name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="inputPhone" class="form-label">
+                    Phone
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="+94-123456789"
+                    aria-label="Phone"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="inputEmail" class="form-label">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Ex:abc@gmail.com"
+                    aria-label="Email"
+                  />
+                </div>
+                <div class="col">
+                  <label for="inputSubject" class="form-label">
+                    Subject
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Ex:abc....."
+                    aria-label="Subject"
+                  />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col">
+                  <label for="inputSubject" class="form-label">
+                    Your Massege
+                  </label>
+                  <div class="form-floating">
+                    <textarea
+                      class="form-control"
+                      placeholder="Leave a comment here"
+                      id="floatingTextarea"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class=" btn-primary">
+                  Sign in
+                </button>
+              </div>
+            </form>
           </div>
-          <div class="contactForm">
-            <h2>Send a Message</h2>
-            <div class="formBox">
-              <div class="inputBox w50">
-                <input type="text" name="" required />
-                <span>First Name</span>
-              </div>
-              <div class="inputBox w50">
-                <input type="text" name="" required />
-                <span>Last Name</span>
-              </div>
-              <div class="inputBox w50">
-                <input type="text" name="" required />
-                <span>
-                  Email-address
-                  {/* <Email-address /> */}
-                </span>
-              </div>
-              <div class="inputBox w50">
-                <input type="text" name="" required />
-                <span>Mobile Number</span>
-              </div>
-              <div class="inputBox w100">
-                <textarea name="" required></textarea>
-                <span>Write your text here.....</span>
-              </div>
-              <div class="inputBox w100">
-                <input type="submit" value="Send" />
-              </div>
-            </div>
-          </div>
+          <div className="col-md-4 bg-primary">text</div>
         </div>
       </div>
     </div>
