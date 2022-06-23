@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./sec.css";
-import Timer from "../Timer/timer";
+import Timer from "../Time_c/timer";
 import EventCard from "./eventCard";
 import DoneEvent from "./doneEvent";
 
@@ -9,24 +9,24 @@ function App() {
   return (
     <div>
       <h1>Upcomming Event</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <article class="blog-card">
-              <div class="blog-card__background">
-                <div class="card__background--wrapper">
-                  <div class="card__background--main">
-                    <div class="card__background--layer"></div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <article className="blog-card">
+              <div className="blog-card__background">
+                <div className="card__background--wrapper">
+                  <div className="card__background--main">
+                    <div className="card__background--layer"></div>
                   </div>
                 </div>
               </div>
-              <div class="blog-card__head">
-                <span class="date__box">
-                  <span class="date__day">31</span>
-                  <span class="date__month">AUG</span>
+              <div className="blog-card__head">
+                <span className="date__box">
+                  <span className="date__day">31</span>
+                  <span className="date__month">AUG</span>
                 </span>
               </div>
-              <div class="blog-card__info">
+              <div className="blog-card__info">
                 <h4>PLANTING CAMPAINGE</h4>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -43,12 +43,12 @@ function App() {
                   irure deserunt culpa consectetur. Fugiat tempor sunt labore
                   minim consectetur Lorem ea mollit id ullamco.
                 </p>
-                <div class="container justify-content-center">
-                  <div class="row justify-content-md-center">
-                    <div class="col-lg-9">
+                <div className="container justify-content-center">
+                  <div className="row justify-content-md-center">
+                    <div className="col-lg-9">
                       <EventCard />
                     </div>
-                    <div class="col-lg-4">
+                    <div className="col-lg-4">
                       <Timer />
                     </div>
                   </div>

@@ -7,56 +7,56 @@ import "./eventCard.css";
 const eventCard = () => {
   return (
     <div>
-      <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-md-center">
-        <div class="col">
-          <div class="card h-100 bg-light border-light">
+      <div className="row row-cols-1 row-cols-md-4 g-4 justify-content-md-center">
+        <div className="col">
+          <div className="card h-100 bg-light border-light">
             <img
               src={Place}
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               width={50}
               height={50}
               style={{ marginTop: 5 }}
             />
-            <div class="card-body text-center">
-              <h4 class="card-title">Place</h4>
-              <small class="text-muted">
+            <div className="card-body text-center">
+              <h4 className="card-title">Place</h4>
+              <small className="text-muted">
                 <h5>UWU</h5>
               </small>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100 bg-light border-light">
+        <div className="col">
+          <div className="card h-100 bg-light border-light">
             <img
               src={clock}
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               width={50}
               height={50}
               style={{ marginTop: 5 }}
             />
-            <div class="card-body text-center">
-              <h4 class="card-title">Time</h4>
-              <small class="text-muted">
+            <div className="card-body text-center">
+              <h4 className="card-title">Time</h4>
+              <small className="text-muted">
                 <h5>10:00 AM</h5>
               </small>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100 bg-light border-light">
+        <div className="col">
+          <div className="card h-100 bg-light border-light">
             <img
               src={Calendar}
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               width={50}
               height={50}
               style={{ marginTop: 5 }}
             />
-            <div class="card-body text-center">
-              <h4 class="card-title">Date</h4>
-              <small class="text-muted">
+            <div className="card-body text-center">
+              <h4 className="card-title">Date</h4>
+              <small className="text-muted">
                 <h5>August 31</h5>
               </small>
             </div>

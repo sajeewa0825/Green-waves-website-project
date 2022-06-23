@@ -1,0 +1,146 @@
+.boxWhat {
+    margin-top: -5%;
+    margin-bottom: 7%;
+    vertical-align: auto;
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff
+}
+
+.WhatWedoContent {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.WhatWedocard {
+    margin-top: 24%;
+    border-radius: 20px 20px 20px 20px;
+    width: 60vh;
+    height: 45vh;
+    margin-left: 10%;
+    background-image: url(https://images.pexels.com/photos/8770246/pexels-photo-8770246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.blacklineWedo {
+    width: 8vh;
+    border-top: 2px solid #1d2130;
+    margin-top: -4.1vh;
+    margin-left: -10.5vh;
+}
+
+.wedotopic {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.Whatwedoh1 {
+    
+    margin-top: 5%;
+    font-size: 56px;
+    margin-top: 4%;
+    font-weight: 700;
+    line-height: 120%;
+    color: #1d2130;
+}
+
+.Whatwedolorem {
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+    
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .WedoContent {
+        margin-left: 8%;
+    }
+
+    .Wedocard {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .WedoContent {
+        margin-left: 5%;
+    }
+
+    .Wedocard {
+        margin-left: -5%;
+    }
+}
+
+
+/*   ------------------------   GREEN BOX ---------------------------       */
+
+.boxGreen {
+    margin-top: -7%;
+    margin-bottom: 7%;
+    vertical-align: auto;
+    width: 100%;
+    height: 550px;
+    background-color: #eff7f2
+}
+
+.mainGrid {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.mainH1 {
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D2130;
+}
+
+.cardMain{
+   margin-top: 6%;
+   margin-left: 2%;
+   margin-right: 2%;
+   gap: 20px;
+   
+}
+
+.imgCard{
+    height: 32px;
+    margin-left: 60%;
+    display: flex;
+}
+
+.cardP{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #525560;
+}
+
+/*   ------------------------   WHITE BOX ---------------------------       */
+
+.boxWhatSec{
+    margin-top: -7%;
+    margin-bottom: -7%;
+    vertical-align: auto;
+    width: 100%;
+    height: 550px;
+    background-color: #ffffff
+}
