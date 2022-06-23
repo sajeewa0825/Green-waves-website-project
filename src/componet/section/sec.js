@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./sec.css";
-import Timer from "../timer/timer";
+import Timer from "../Timer/timer";
 import EventCard from "./eventCard";
 import DoneEvent from "./doneEvent";
 
