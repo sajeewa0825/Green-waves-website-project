@@ -73,7 +73,7 @@ body {
 }
 .blog-card__info {
   z-index: 10;
-  background: rgb(242, 242, 242);
+  background: #eff7f2;
   padding: 20px 15px;
 }
 h4 {
@@ -106,7 +106,7 @@ i {
   text-decoration: none;
 }
 
-.btn {
+/* .btn {
   background: white;
   color: #363738;
   font-weight: bold;
@@ -147,4 +147,4 @@ i {
 .col-sm-4 {
   align-items: center;
   align-content: center;
-}
+} */
