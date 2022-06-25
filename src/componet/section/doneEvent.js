@@ -1,5 +1,6 @@
 import React from "react";
 import "./doneEvent.css";
+import { Link } from "react-router-dom";
 
 const donEvent = () => {
   return (
@@ -24,7 +25,7 @@ const donEvent = () => {
                   nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
                 </p>
                 <p className="read-more">
-                  <a href="# ">Read More...</a>
+                  <Link to={"/doneEventShow"}>Read More...</Link>
                 </p>
               </div>
             </div>
@@ -46,7 +47,7 @@ const donEvent = () => {
                   nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
                 </p>
                 <p className="read-more">
-                  <a href="# ">Read More...</a>
+                  <Link to={"/doneEventShow"}>Read More...</Link>
                 </p>
               </div>
             </div>
