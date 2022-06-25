@@ -113,10 +113,15 @@
   color: #5ad67d;
   display: inline-block;
   position: relative;
+  /* border: 2px solid #5ad67d;
+  border-radius: 50px; */
+  text-decoration: none;
+  padding: 1px 4px 1px 4px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 .blog-card1 .description .read-more a:after {
-  content: "\f061";
-  font-family: FontAwesome;
   margin-left: -10px;
   opacity: 0;
   vertical-align: middle;
