@@ -6,8 +6,10 @@ const ContactUs = () => {
     <div>
       <div class="container">
         <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-8 mb-3">
             <h1>Contact us</h1>
+            <br></br>
+            <br></br>
             <form class="row g-3">
               <div className="row">
                 <div class="col">
@@ -78,7 +80,45 @@ const ContactUs = () => {
               </div>
             </form>
           </div>
-          <div className="col-md-4 bg-primary">text</div>
+          <div class="col-md-4 ContactUs_col">
+            <div class="contact-in">
+              <h1>Contact Info</h1>
+              <h2>
+                <i class="fa fa-phone" aria-hidden="true"></i> Phone
+              </h2>
+              <p>123-456-789</p>
+              <h2>
+                <i class="fa fa-envelope" aria-hidden="true"></i> Email
+              </h2>
+              <p>info@democompany.com</p>
+              <h2>
+                <i class="fa fa-map-marker" aria-hidden="true"></i> Address
+              </h2>
+              <p>Vasant Vihar, Delhi, India</p>
+              <ul className="text-center">
+                <li>
+                  <a href="#">
+                    <i class="bi bi-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-google" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
