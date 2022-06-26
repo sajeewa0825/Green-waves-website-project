@@ -4,6 +4,7 @@
 
 .container1{
     display: flex;
+    width: 120%;
 }
 
 @media (min-width: 1120px) {
@@ -65,8 +66,19 @@
 
   @media (min-width: 780px) {
     .container1{
-        margin-bottom: 20vh;
+        margin-bottom: 30vh;
         padding: 0;
+        margin-left: -20vh;
+    }
+    .container1 > div >h1{
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 70px;
+    }
+    .animated-paragraph{
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
     }
   }
 

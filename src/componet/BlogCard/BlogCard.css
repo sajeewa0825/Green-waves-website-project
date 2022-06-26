@@ -189,14 +189,14 @@ margin-bottom: 10% !important;
 
 @media screen and (max-width: 445px) {
     .BlogContent{
-        width: 10vh;
+        width: 9vh;
         height: 25vh;
         margin-left: 2vh;
         margin-bottom: 5vh;
     }
     
     .Blogcard{
-        width: 10vh;
+        width: 9vh;
         height: 15vh;
     }
 
@@ -217,7 +217,7 @@ margin-bottom: 10% !important;
     }
 
     .Blogtopic > h2{
-        font-size: 20px !important;
+        font-size: 20px ;
     }
 }
 
@@ -225,7 +225,7 @@ margin-bottom: 10% !important;
     .BlogContent{
         width: 8vh;
         height: 15vh;
-        margin-left: 2vh;
+        margin-left: vh;
         margin-bottom: 5vh;
     }
     
