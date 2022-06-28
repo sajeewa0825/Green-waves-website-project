@@ -11,6 +11,7 @@ import Event from "./componet/section/sec";
 import WhatWeDo from "./componet/WhatWeDo/WhatWedo";
 import OurTeam from "./componet/OurTeam/OurTeam";
 import DoneEventShow from "./componet/section/doneEventShow";
+import BlogPage from "./componet/Blog/BlogPage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -42,6 +43,7 @@ function App() {
               <Route path="work" element={<WhatWeDo />} />
               <Route path="about" element={<OurTeam />} />
               <Route path="doneEventShow" element={<DoneEventShow />} />
+              <Route path="blog" element={<BlogPage />} />
               <Route path="/" element={<Home />} />
             </Routes>
             <Footer />
