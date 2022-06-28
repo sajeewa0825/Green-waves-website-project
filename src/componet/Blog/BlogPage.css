@@ -1,0 +1,362 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  /* padding: 20px; */
+  background: white;
+}
+.BlogHeaderH3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.BlogHeaderH2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 0px;
+  font-size: 15px;
+  text-align: justify;
+  background: white;
+  color: rgb(18, 18, 97);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  /* width: 80%; */
+  color: rgb(18, 18, 97);
+}
+
+/* Right column */
+.rightcolumn {
+  /* float: right;
+  width: 20%; */
+  padding-left: 0px;
+  color: rgb(18, 18, 97);
+}
+
+/* Add a Card_Blog effect for articles */
+.Card_Blog {
+  background-color: white;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+  width: 95%;
+}
+.formBlog {
+  background-color: white;
+  padding: 40px;
+  margin-top: 200px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+}
+input [type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input [type="textarea"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #3b5999;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.Card_Blog img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+.leftcolumn .Card_Blog .read-more-cont {
+  display: none;
+}
+.leftcolumn .Card_Blog .btn {
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid #555555;
+  color: #555555;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.rightcolumn .Card_Blog .read-more-cont {
+  display: none;
+}
+.read-more-cont p {
+  font-size: 16px;
+  color: #686b75;
+  margin: 0 0 15px;
+}
+
+.rightcolumn .Card_Blog .btn {
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid #555555;
+  color: #555555;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 1rem;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+}
+
+.wrapper {
+  padding: 50px;
+  text-align: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+
+.popup-box {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 500;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.popup-box.open {
+  visibility: visible;
+  opacity: 1;
+}
+.popup-box .popup-content {
+  background-color: #ffffff;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+}
+.modal-content {
+  background-color: #ffffff;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+}
+.popup-box .popup-header {
+  padding: 15px 40px 15px 15px;
+  border-bottom: 1px solid #dddddd;
+}
+.popup-box .popup-header h3 {
+  margin: 0;
+  color: #1d2130;
+  font-size: 20px;
+}
+.popup-box .popup-header .popup-close-icon {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  color: #555555;
+  font-size: 28px;
+  line-height: 30px;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+.popup-box .popup-body {
+  padding: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.modal-body {
+  padding: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.popup-box .popup-body img {
+  width: 100%;
+  display: block;
+  margin-top: 15px;
+}
+.popup-box .popup-body p {
+  font-size: 16px;
+  color: #686b75;
+  margin: 0 0 15px;
+}
+.popup-box .popup-body h4 {
+  margin: 0;
+  color: #1d2130;
+  font-size: 20px;
+}
+.popup-box .popup-body ul {
+  font-size: 16px;
+  color: #686b75;
+  margin: 0 0 15px;
+}
+.popup-box .popup-body ol {
+  font-size: 16px;
+  color: #686b75;
+  margin: 0 0 15px;
+}
+.popup-box .popup-footer {
+  padding: 15px;
+  border-top: 1px solid #dddddd;
+  text-align: right;
+}
+.popup-box .popup-footer .btn {
+  padding: 8px 15px;
+  border: 1px solid #555555;
+  color: #555555;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.popup-box .popup-footer .btn:focus {
+  outline: none;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .modal-content {
+    width: calc(100% - 30px);
+  }
+  .formBlog {
+    margin-top: 50px;
+  }
+}
