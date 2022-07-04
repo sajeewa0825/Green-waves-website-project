@@ -1,8 +1,9 @@
-.boxWhat {
+.whatwedo {
     margin-top: -5%;
     margin-bottom: 7%;
+    display: flex;
     vertical-align: auto;
-    width: 100%;
+    max-width: 100%;
     height: 80vh;
     background-color: #ffffff
 }
@@ -22,6 +23,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
 }
 
 
@@ -37,14 +39,14 @@
 
 .wedotopic {
     font-weight: bold;
-    font-size: smaller;
+    font-size: 16px;
 }
 
 .Whatwedoh1 {
     
     margin-top: 5%;
     font-size: 56px;
-    margin-top: 4%;
+    
     font-weight: 700;
     line-height: 120%;
     color: #1d2130;
@@ -61,25 +63,6 @@
 
 
 
-@media screen and (max-width: 1200px) {
-    .WedoContent {
-        margin-left: 8%;
-    }
-
-    .Wedocard {
-        margin-left: 5%;
-    }
-}
-
-@media screen and (max-width: 930px) {
-    .WedoContent {
-        margin-left: 5%;
-    }
-
-    .Wedocard {
-        margin-left: -5%;
-    }
-}
 
 
 /*   ------------------------   GREEN BOX ---------------------------       */

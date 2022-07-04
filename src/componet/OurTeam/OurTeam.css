@@ -1,19 +1,152 @@
+.ourteamContainer{
+    margin-top: -10%;
+    margin-bottom: 7%;
+    /* display: flex;
+    vertical-align: auto; */
+   
+    height: 115vh;
+    background-color: #ffffff
+}
+
+.ourteamRow{
+  margin-left: 10%;
+  margin-right: 5%;
+  
+}
+
+.leftRow{
+  margin-top: 33%;
+}
+
+
+
+
+.abouth1{
+    margin-top: 5%;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #1d2130;
+}
+
+.aboutdolorem1{
+  margin-top: 42%;
+  margin-left: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.aboutdolorem2{
+  font-size: 16px;
+  margin-left: 5%;
+  color: #525560;
+}
+
+
+
+
+
+
+  
+.aboutImage{
+    width: 1180px;
+    height: 448px;
+    position: relative;
+    margin: auto;
+    
+    border-radius: 20px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/green-waves-f1d66.appspot.com/o/Optimized-aboutBGnew.png?alt=media&token=7c69e2ff-2f56-4ba1-a5b2-33998ae7dc35);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+} 
+  
+.imgContainer{
+  height: 95vh;
+}
+  
+  
+/* ///////////////Misson Visson/////////////////////// */
+
+.missonContainer{
+    margin-top: -10%;
+    
+    height: 100vh;
+    background-color: #eff7f2
+}
+
+
+
+.mission{
+  margin-top: 60%;
+  margin-right:5%;
+}
+
+.vision{
+  margin-top: 60%;
+  margin-left:5% ;
+}
+
+.abouttopic {
+font-weight: bold;
+font-size: 14px;
+
+}
+
+
+.missionTitle{
+  /* margin-top: 42%; */
+  /* font-size: 20px; */
+  font-weight: bold;
+}
+
+.missionLorem{
+  font-size: 16px;
+  color: #525560;
+}
+
+.missionTitle2{
+  /* margin-top: 42%; */
+  /* font-size: 20px; */
+  font-weight: bold;
+}
+
+.missionLorem2{
+  font-size: 16px;
+  color: #525560;
+}
+
+
+
+
+
+
+
+
+
+  
+  
   .Teamstyle {
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: azure;
-    font-family: "Century Gothic";
+    background-color: #ffffff;
+    font-family: "roboto";
     min-height: 100vh;
+    
+    
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .title {
+    
     text-align: center;
     text-transform: capitalize;
     color: #0e0630;
-    margin: 10px 0;
+    margin: 60px 0;
     position: relative;
   }
   
@@ -48,6 +181,7 @@
   .teams:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transform: translateY(-20px);
+    border-radius: 6%;
   }
   
   .teams img {
@@ -55,7 +189,7 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 4px solid #726a95;
+    
     border-radius: 50%;
     margin: 0 auto;
   }
@@ -64,7 +198,7 @@
     display: inline-block;
     height: 30px;
     width: 30px;
-    transition: 4s;
+    transition: 1s;
   }
   
   .social-links a:hover {
