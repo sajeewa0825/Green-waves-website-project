@@ -74,7 +74,7 @@ const ContactUs = () => {
                 </div>
               </div>
               <div class="col-12">
-                <button type="submit" class=" btn-primary">
+                <button type="submit" class="contactUsBtn">
                   Sign in
                 </button>
               </div>
