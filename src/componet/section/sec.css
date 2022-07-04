@@ -98,13 +98,13 @@ a.icon-link {
   transition: 200ms ease-in-out;
 }
 
-i {
+/* i {
   color: green;
 }
 .i:hover {
   color: #ffb535;
   text-decoration: none;
-}
+} */
 
 /* .btn {
   background: white;

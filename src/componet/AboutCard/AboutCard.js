@@ -28,7 +28,7 @@ const AboutCard = () => {
               </p>
             </div>
             <div>
-              <button type="button" class="btn btn-success">
+              <button type="button" class="btn btn-success AboutCard-ReadBtn">
                 Learn more
               </button>
             </div>
