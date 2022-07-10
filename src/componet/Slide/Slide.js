@@ -1,31 +1,27 @@
-import React from 'react'
-import { Carousel } from 'react-bootstrap'
-import AnimatedText from 'react-animated-text-content';
-import photo1 from './SlidePhotos/slide1.jpg'
-import photo2 from './SlidePhotos/slide2.jpg'
-import photo3 from './SlidePhotos/slide3.jpg'
-import './Slide.css';
+import React from "react";
+import { Carousel } from "react-bootstrap";
+import AnimatedText from "react-animated-text-content";
+import photo1 from "./SlidePhotos/slide1.jpg";
+import photo2 from "./SlidePhotos/slide2.jpg";
+import photo3 from "./SlidePhotos/slide3.jpg";
+import "./Slide.css";
 
 const Slide = () => {
   return (
     <div>
       <Carousel fade interval={2000}>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={photo2}
-            alt="First slide"
-          />
-          <Carousel.Caption >
+          <img className="d-block w-100" src={photo2} alt="First slide" />
+          <Carousel.Caption>
             <div className="container1 ">
               <div className="col-sm-9 col-md-5">
                 <AnimatedText
                   type="words" // animate words or char
                   animation={{
-                    x: '200px',
-                    y: '-20px',
+                    x: "200px",
+                    y: "-20px",
                     scale: 1.1,
-                    ease: 'ease-in-out',
+                    ease: "ease-in-out",
                   }}
                   animationType="lights"
                   interval={0.06}
@@ -36,15 +32,15 @@ const Slide = () => {
                   threshold={0.1}
                   rootMargin="20%"
                 >
-                  Save water save Plant
+                  Plant a tree
                 </AnimatedText>
                 <AnimatedText
                   type="words" // animate words or chars
                   animation={{
-                    x: '200px',
-                    y: '-20px',
+                    x: "200px",
+                    y: "-20px",
                     scale: 1.1,
-                    ease: 'ease-in-out',
+                    ease: "ease-in-out",
                   }}
                   animationType="wave"
                   interval={0.06}
@@ -55,29 +51,26 @@ const Slide = () => {
                   threshold={0.1}
                   rootMargin="20%"
                 >
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  Plant a tree, grow a flower – let’s give Mother Earth to give
+                  them back her power
                 </AnimatedText>
               </div>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={photo1}
-            alt="Second slide"
-          />
+          <img className="d-block w-100" src={photo1} alt="Second slide" />
 
           <Carousel.Caption>
             <div class="container1">
               <div class="col-sm-9 col-md-6">
-              <AnimatedText
+                <AnimatedText
                   type="words" // animate words or chars
                   animation={{
-                    x: '200px',
-                    y: '-20px',
+                    x: "200px",
+                    y: "-20px",
                     scale: 1.1,
-                    ease: 'ease-in-out',
+                    ease: "ease-in-out",
                   }}
                   animationType="lights"
                   interval={0.06}
@@ -88,15 +81,15 @@ const Slide = () => {
                   threshold={0.1}
                   rootMargin="20%"
                 >
-                  Save water save Plant
+                  Stop hunting and save wild life
                 </AnimatedText>
                 <AnimatedText
                   type="words" // animate words or chars
                   animation={{
-                    x: '200px',
-                    y: '-20px',
+                    x: "200px",
+                    y: "-20px",
                     scale: 1.1,
-                    ease: 'ease-in-out',
+                    ease: "ease-in-out",
                   }}
                   animationType="wave"
                   interval={0.06}
@@ -107,29 +100,25 @@ const Slide = () => {
                   threshold={0.1}
                   rootMargin="20%"
                 >
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  Save wild life of endangered animals in the world.
                 </AnimatedText>
               </div>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={photo3}
-            alt="Third slide"
-          />
+          <img className="d-block w-100" src={photo3} alt="Third slide" />
 
           <Carousel.Caption>
             <div class="container1">
               <div class="col-sm-9 col-md-6">
-              <AnimatedText
+                <AnimatedText
                   type="words" // animate words or chars
                   animation={{
-                    x: '200px',
-                    y: '-20px',
+                    x: "200px",
+                    y: "-20px",
                     scale: 1.1,
-                    ease: 'ease-in-out',
+                    ease: "ease-in-out",
                   }}
                   animationType="lights"
                   interval={0.06}
@@ -140,15 +129,15 @@ const Slide = () => {
                   threshold={0.1}
                   rootMargin="20%"
                 >
-                  Save water save Plant
+                  Trees are the saviours
                 </AnimatedText>
                 <AnimatedText
                   type="words" // animate words or chars
                   animation={{
-                    x: '200px',
-                    y: '-20px',
+                    x: "200px",
+                    y: "-20px",
                     scale: 1.1,
-                    ease: 'ease-in-out',
+                    ease: "ease-in-out",
                   }}
                   animationType="throw"
                   interval={0.06}
@@ -159,17 +148,15 @@ const Slide = () => {
                   threshold={0.1}
                   rootMargin="20%"
                 >
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  Save them, plant them, protect them.
                 </AnimatedText>
               </div>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      
     </div>
-  )
-}
+  );
+};
 
 export default Slide;
-
