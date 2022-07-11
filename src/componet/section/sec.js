@@ -8,8 +8,9 @@ import DoneEvent from "./doneEvent";
 function App() {
   return (
     <div>
-      <h1>Upcomming Event</h1>
       <div className="container">
+        <p className="Event_subHeading pt-2">OUR EVENTS</p>
+        <h1 className="Event_Heading">Up Comming Event</h1>
         <div className="row">
           <div className="col-12">
             <article className="blog-card">
