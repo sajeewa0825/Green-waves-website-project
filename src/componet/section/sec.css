@@ -1,6 +1,11 @@
 body {
   background: #eee;
 }
+.Event_subHeading {
+  font-size: smaller;
+  font-weight: bold;
+}
+
 .date__box {
   position: absolute;
   display: flex;
