@@ -19,7 +19,7 @@
 }
 
 .navbar-toggler.navbar-toggler-icon {
-  color: #000000;
+  color: #000000 !important;
 }
 
 .navbar-brand {
