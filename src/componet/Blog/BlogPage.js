@@ -190,7 +190,7 @@ const home = () => {
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel_1">
-                Modal title
+                Bees
               </h5>
               <button
                 type="button"
@@ -323,7 +323,7 @@ const home = () => {
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel2">
-                Modal title
+                Ecologies
               </h5>
               <button
                 type="button"
@@ -423,7 +423,7 @@ const home = () => {
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel_3">
-                Modal title
+                Butterflies
               </h5>
               <button
                 type="button"
@@ -531,7 +531,7 @@ const home = () => {
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel_4">
-                Modal title
+                Cruise Ships
               </h5>
               <button
                 type="button"
