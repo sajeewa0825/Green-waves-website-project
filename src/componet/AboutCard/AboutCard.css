@@ -3,12 +3,12 @@
 }
 
 .aboutcard {
-  border-radius: 0px 60px 0px 60px;
+  border-radius: 0px 10px 0px 10px;
   background: #36454f;
   width: 50vh;
   height: 60vh;
   margin-left: 12%;
-  background-image: url(https://images.pexels.com/photos/7425352/pexels-photo-7425352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/612892/pexels-photo-612892.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
