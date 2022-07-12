@@ -113,9 +113,8 @@
 }
 
 .blog-card1 .details .date:before {
-  font-family: FontAwesome;
   margin-right: 10px;
-  content: "\f133";
+
   text-align: center;
 }
 
