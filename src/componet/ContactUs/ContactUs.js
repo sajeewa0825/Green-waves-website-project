@@ -75,7 +75,7 @@ const ContactUs = () => {
               </div>
               <div class="col-12">
                 <button type="submit" class="contactUsBtn">
-                  Sign in
+                  Send
                 </button>
               </div>
             </form>
