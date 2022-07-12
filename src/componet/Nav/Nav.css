@@ -17,10 +17,6 @@
   border-top: 0.1875rem solid #f9ab00;
 }
 
-.navbar-toggler.navbar-toggler-icon {
-  color: #000000 !important;
-}
-
 .navbar-brand {
   padding: 0 !important;
   max-width: 17.25rem;
