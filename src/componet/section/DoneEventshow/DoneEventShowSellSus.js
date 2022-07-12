@@ -36,14 +36,14 @@ const doneEventShow = () => {
                   <p className="text-muted">
                     <div className="row">
                       <div className="col-sm">
-                        <i class="bi bi-calendar-week-fill fs-4 "></i> May
-                        15,2022
+                        <i class="bi bi-calendar-week-fill fs-4 "></i> January
+                        01,2022
                       </div>
                       <div className="col-sm">
-                        <i class="bi bi-geo-alt-fill fs-4 "></i>Colombo
+                        <i class="bi bi-geo-alt-fill fs-4 "></i>Badulla
                       </div>
                       <div className="col-sm">
-                        <i class="bi bi-clock-fill fs-4  "></i>10.00 a.m
+                        <i class="bi bi-clock-fill fs-4  "></i>9.00 a.m onward
                       </div>
                     </div>
                   </p>
