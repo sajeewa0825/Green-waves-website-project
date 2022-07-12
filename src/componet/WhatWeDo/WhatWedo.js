@@ -22,9 +22,10 @@ const WhatWeDo = () => {
               </div>
               <div>
                 <p className="Whatwedolorem">
-                  In publishing and graphic design, Lorem ipsum is a placeholder
-                  text commonly used to demonstrate form of a document or a
-                  typeface without relying on
+                  To create an eco-friendly human community while preserving our
+                  limited natural resources,adapted to sustainable development
+                  for a clean and healthy environment that enhances the quality
+                  of life for present and future generations.
                 </p>
               </div>
             </div>
@@ -51,8 +52,9 @@ const WhatWeDo = () => {
                 <b>Build healthy cities</b>
               </h5>
               <p className="cardP">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime{" "}
+                We build a healthy city that continually creates and improves
+                its physical and social environments and expands the community
+                resources.
               </p>
             </div>
           </div>
@@ -67,8 +69,8 @@ const WhatWeDo = () => {
                 <b>Protect land and water</b>
               </h5>
               <p className="cardP">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime{" "}
+                We protect land and water by educate people on 3R concept that
+                will help to create environmental sustainability.
               </p>
             </div>
           </div>
@@ -82,8 +84,8 @@ const WhatWeDo = () => {
                 <b>Tree plantation</b>
               </h5>
               <p className="cardP">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime{" "}
+                We plant trees for high volume production of wood, usually by
+                planting one type of tree as a monoculture forest.
               </p>
             </div>
           </div>
@@ -98,8 +100,9 @@ const WhatWeDo = () => {
                 <b>Water sustainability</b>
               </h5>
               <p className="cardP">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime{" "}
+                A nation that can be water self-sufficient ensuring there is
+                enough water to meet multiple needs, from agriculture to
+                municipal and industrial.
               </p>
             </div>
           </div>
@@ -114,8 +117,9 @@ const WhatWeDo = () => {
                 <b>Animal safety</b>
               </h5>
               <p className="cardP">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime{" "}
+                We Protect animals as well as the oceans, forests, and
+                grasslands they inhabit— will help safeguard the future for all
+                species.
               </p>
             </div>
           </div>
@@ -130,8 +134,9 @@ const WhatWeDo = () => {
                 <b>Biodiversity</b>
               </h5>
               <p className="cardP">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime{" "}
+                We work with local communities in supporting for policy change
+                and implement local solutions to protect forests and
+                biodiversity.
               </p>
             </div>
           </div>
