@@ -28,21 +28,22 @@ function App() {
                 </span>
               </div>
               <div className="blog-card__info">
-                <h4>PLANTING CAMPAINGE</h4>
+                <h4 class="fw-bold">PLANTING CAMPAINGE</h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloremque vero libero voluptatibus earum? Alias dignissimos
-                  quo cum, nulla esse facere atque, blanditiis doloribus at sunt
-                  quas, repellendus vel? Et, hic!
+                  "A tree is the best friend of man on earth." When we use trees
+                  respectfully and economically, we have one of the greatest
+                  resources on earth. Trees are rightfully called the 'lungs of
+                  the earth.' Life on earth would cease to exist in the absence
+                  of trees.
                 </p>
                 <p>
-                  Quis eu labore esse aliquip ad magna est irure. Do eiusmod
-                  dolor laborum ullamco ad in. Qui sunt minim id adipisicing
-                  amet quis enim pariatur. Labore ut sunt incididunt sit
-                  incididunt cupidatat tempor sit eiusmod reprehenderit.
-                  Excepteur elit est do esse commodo reprehenderit amet tempor
-                  irure deserunt culpa consectetur. Fugiat tempor sunt labore
-                  minim consectetur Lorem ea mollit id ullamco.
+                  Our planting campaign is carried out in three main ways. There
+                  are, Map the world’s terrestrial and aquatic ecosystems and
+                  create an inventory of the species contained in each of them
+                  and the ecosystem service they provide; Locate the protect the
+                  endangered ecosystems and species, with emphasis on protecting
+                  plant biodiversity and ecosystem services; Seek to restore as
+                  many degraded ecosystems as possible
                 </p>
                 <div className="container justify-content-center">
                   <div className="row justify-content-md-center">
