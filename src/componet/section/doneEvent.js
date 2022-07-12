@@ -13,7 +13,15 @@ const donEvent = () => {
               <div className="meta">
                 <div className="photo1"></div>
                 <ul className="details">
-                  <li className="date">Aug. 24, 2015</li>
+                  <li className="date">
+                    <i class="bi bi-calendar-week me-2"></i>May. 15, 2022
+                  </li>
+                  <li className="date">
+                    <i class="bi bi-geo-alt me-2"></i>Colombo
+                  </li>
+                  <li className="date">
+                    <i class="bi  bi-clock me-2"></i>10.00a.m
+                  </li>
                 </ul>
               </div>
               <div className="description">
@@ -35,7 +43,15 @@ const donEvent = () => {
               <div className="meta">
                 <div className="photo2"></div>
                 <ul className="details">
-                  <li className="date">July. 15, 2015</li>
+                  <li className="date">
+                    <i class="bi bi-calendar-week me-2"></i>April. 4, 2022
+                  </li>
+                  <li className="date">
+                    <i class="bi bi-geo-alt me-2"></i>Colombo
+                  </li>
+                  <li className="date">
+                    <i class="bi  bi-clock me-2"></i>10.00a.m
+                  </li>
                 </ul>
               </div>
               <div className="description">
@@ -44,7 +60,7 @@ const donEvent = () => {
                   Seminars-held as a medium by which there could be a free
                   exchange of information on rapid action environment protection
                   systems used in munition production operations.Seminars-held
-                  as a medium by which there could be a free exchange
+                  as a medium
                 </p>
                 <p className="read-more">
                   <Link to={"/Semina"}>Read More...</Link>
@@ -59,7 +75,15 @@ const donEvent = () => {
               <div className="meta">
                 <div className="photo3"></div>
                 <ul className="details">
-                  <li className="date">Aug. 24, 2015</li>
+                  <li className="date">
+                    <i class="bi bi-calendar-week me-2"></i>March. 30, 2022
+                  </li>
+                  <li className="date">
+                    <i class="bi bi-geo-alt me-2"></i>Badulla
+                  </li>
+                  <li className="date">
+                    <i class="bi  bi-clock me-2"></i>10.00a.m - 2.00p.m
+                  </li>
                 </ul>
               </div>
               <div className="description">
@@ -81,7 +105,15 @@ const donEvent = () => {
               <div className="meta">
                 <div className="photo4"></div>
                 <ul className="details">
-                  <li className="date">July. 15, 2015</li>
+                  <li className="date">
+                    <i class="bi bi-calendar-week me-2"></i>January. 01, 2022
+                  </li>
+                  <li className="date">
+                    <i class="bi bi-geo-alt me-2"></i>Badulla
+                  </li>
+                  <li className="date">
+                    <i class="bi  bi-clock me-2"></i>9.00a.m onward
+                  </li>
                 </ul>
               </div>
               <div className="description">
