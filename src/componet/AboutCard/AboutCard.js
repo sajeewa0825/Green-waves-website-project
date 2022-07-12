@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutCard.css";
+import { Link } from "react-router-dom";
 
 const AboutCard = () => {
   return (
@@ -31,9 +32,11 @@ const AboutCard = () => {
               </p>
             </div>
             <div>
-              <button type="button" class="btn btn-success AboutCard-ReadBtn">
-                Learn more
-              </button>
+              <Link to={"/about"}>
+                <button type="button" class="btn btn-success AboutCard-ReadBtn">
+                  Learn more
+                </button>
+              </Link>
             </div>
           </div>
         </div>
