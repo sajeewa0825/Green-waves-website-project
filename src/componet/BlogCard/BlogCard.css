@@ -1,257 +1,269 @@
-.Blogtopic{
-   justify-content: left !important;
-   margin-right: 75%;
-   margin-bottom: 3%;
-   margin-top: 7%;
+.Blogtopic {
+  justify-content: left !important;
+  margin-right: 75%;
+  margin-bottom: 3%;
+  margin-top: 7%;
 }
 
-.blogSet{
-margin-bottom: 10% !important;
+.blogSet {
+  margin-bottom: 10% !important;
 }
 
-.BlogContent{
-    width: 40vh;
-    height: 35vh;
-    margin-left: 3vh;
-    margin-bottom: 5vh;
+.BlogContent {
+  width: 40vh;
+  height: 35vh;
+  margin-left: 3vh;
+  margin-bottom: 5vh;
 }
 
-.Blogcard{
-    background-color: darkgrey;
-    width: 40vh;
-    height: 25vh;
-    margin-top: 5%;
-    border-radius: 10px 10px 10px 10px;
+.Blogcard {
+  background-color: darkgrey;
+  width: 40vh;
+  height: 25vh;
+  margin-top: 5%;
+  border-radius: 10px 10px 10px 10px;
 }
 
-.bcard1{
-    background-image: url(https://images.pexels.com/photos/7425352/pexels-photo-7425352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.bcard1 {
+  background-image: url(../Blog/pic/image-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bcard2 {
+  background-image: url(../Blog/pic/image-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bcard3 {
+  background-image: url(../Blog/pic/image-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bcard4 {
+  background-image: url(../Blog/pic/image-04.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.Blogtittle{
-    margin-top: 3%;
+.Blogtittle {
+  margin-top: 3%;
 }
 
-
-.Blogcard:hover{
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    transform: scale(1.1);
-
+.Blogcard:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
 }
 
-
-.acls{
-    text-decoration: none !important;
-    color: #000;
+.acls {
+  text-decoration: none !important;
+  color: #000;
 }
 
-.acls:hover{
-    text-decoration: none !important;
-    color: #000;
+.acls:hover {
+  text-decoration: none !important;
+  color: #000;
 }
 
 @media screen and (max-width: 1290px) {
-    .BlogContent{
-        width: 35vh;
-    }
-    
-    .Blogcard{
-        width: 35vh;
-    }
+  .BlogContent {
+    width: 35vh;
+  }
+
+  .Blogcard {
+    width: 35vh;
+  }
 }
 
 @media screen and (max-width: 1202px) {
-    .BlogContent{
-        width: 30vh;
-    }
-    
-    .Blogcard{
-        width: 30vh;
-    }
+  .BlogContent {
+    width: 30vh;
+  }
 
-    .Blogtopic{
-        margin-right: 70%;
-    }
+  .Blogcard {
+    width: 30vh;
+  }
+
+  .Blogtopic {
+    margin-right: 70%;
+  }
 }
 
 @media screen and (max-width: 993px) {
-    .BlogContent{
-        width: 23vh;
-        height: 45vh;
-        margin-left: 2vh;
-        margin-bottom: 5vh;
-    }
-    
-    .Blogcard{
-        width: 23vh;
-        height: 25vh;
-    }
+  .BlogContent {
+    width: 23vh;
+    height: 45vh;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+  }
 
-    .Blogtittle > h5{
-        font-size: 15px;
-    }
+  .Blogcard {
+    width: 23vh;
+    height: 25vh;
+  }
 
-    .Blogtopic{
-        margin-right: 60%;
-    }
+  .Blogtittle > h5 {
+    font-size: 15px;
+  }
+
+  .Blogtopic {
+    margin-right: 60%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .BlogContent{
-        width: 16vh;
-        height: 35vh;
-        margin-left: 2vh;
-        margin-bottom: 5vh;
-    }
-    
-    .Blogcard{
-        width: 16vh;
-        height: 25vh;
-    }
+  .BlogContent {
+    width: 16vh;
+    height: 35vh;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+  }
 
-    .Blogtittle > h5{
-        font-size: 10px;
-    }
+  .Blogcard {
+    width: 16vh;
+    height: 25vh;
+  }
 
-    .Blogtopic{
-        margin-right: 50%;
-    }
+  .Blogtittle > h5 {
+    font-size: 10px;
+  }
 
-    .Bloglorem > p{
-        font-size: 9px;
-    }
+  .Blogtopic {
+    margin-right: 50%;
+  }
+
+  .Bloglorem > p {
+    font-size: 9px;
+  }
 }
-
 
 @media screen and (max-width: 585px) {
-    .BlogContent{
-        width: 16vh;
-        height: 35vh;
-        margin-left: 2vh;
-        margin-bottom: 5vh;
-    }
-    
-    .Blogcard{
-        width: 16vh;
-        height: 25vh;
-    }
+  .BlogContent {
+    width: 16vh;
+    height: 35vh;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+  }
 
-    .Blogtittle > h5{
-        font-size: 10px;
-    }
+  .Blogcard {
+    width: 16vh;
+    height: 25vh;
+  }
 
-    .Blogtopic{
-        margin-right: 50%;
-    }
+  .Blogtittle > h5 {
+    font-size: 10px;
+  }
 
-    .Bloglorem > p{
-        font-size: 9px;
-    }
+  .Blogtopic {
+    margin-right: 50%;
+  }
 
-    .blogSet{
-        margin-left: -2vh;
-    }
+  .Bloglorem > p {
+    font-size: 9px;
+  }
+
+  .blogSet {
+    margin-left: -2vh;
+  }
 }
 
-
 @media screen and (max-width: 531px) {
-    .BlogContent{
-        width: 13vh;
-        height: 30vh;
-        margin-left: 2vh;
-        margin-bottom: 5vh;
-    }
-    
-    .Blogcard{
-        width: 13vh;
-        height: 20vh;
-    }
+  .BlogContent {
+    width: 13vh;
+    height: 30vh;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+  }
 
-    .Blogtittle > h5{
-        font-size: 8px;
-    }
+  .Blogcard {
+    width: 13vh;
+    height: 20vh;
+  }
 
-    .Blogtopic{
-        margin-right: 45%;
-    }
+  .Blogtittle > h5 {
+    font-size: 8px;
+  }
 
-    .Bloglorem > p{
-        font-size: 7px;
-    }
+  .Blogtopic {
+    margin-right: 45%;
+  }
 
-    .blogSet{
-        margin-left: -2vh;
-    }
+  .Bloglorem > p {
+    font-size: 7px;
+  }
+
+  .blogSet {
+    margin-left: -2vh;
+  }
 }
 
 @media screen and (max-width: 445px) {
-    .BlogContent{
-        width: 10vh;
-        height: 25vh;
-        margin-left: 2vh;
-        margin-bottom: 5vh;
-    }
-    
-    .Blogcard{
-        width: 10vh;
-        height: 15vh;
-    }
+  .BlogContent {
+    width: 10vh;
+    height: 25vh;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+  }
 
-    .Blogtittle > h5{
-        font-size: 6px;
-    }
+  .Blogcard {
+    width: 10vh;
+    height: 15vh;
+  }
 
-    .Blogtopic{
-        margin-right: 45%;
-    }
+  .Blogtittle > h5 {
+    font-size: 6px;
+  }
 
-    .Bloglorem > p{
-        font-size: 5px;
-    }
+  .Blogtopic {
+    margin-right: 45%;
+  }
 
-    .blogSet{
-        margin-left: -2vh;
-    }
+  .Bloglorem > p {
+    font-size: 5px;
+  }
 
-    .Blogtopic > h2{
-        font-size: 20px !important;
-    }
+  .blogSet {
+    margin-left: -2vh;
+  }
+
+  .Blogtopic > h2 {
+    font-size: 20px !important;
+  }
 }
 
 @media screen and (max-width: 360px) {
-    .BlogContent{
-        width: 8vh;
-        height: 15vh;
-        margin-left: 2vh;
-        margin-bottom: 5vh;
-    }
-    
-    .Blogcard{
-        width: 8vh;
-        height: 10vh;
-    }
+  .BlogContent {
+    width: 8vh;
+    height: 15vh;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+  }
 
-    .Blogtittle > h5{
-        font-size: 5px;
-    }
+  .Blogcard {
+    width: 8vh;
+    height: 10vh;
+  }
 
-    .Blogtopic{
-        margin-right: 45%;
-    }
+  .Blogtittle > h5 {
+    font-size: 5px;
+  }
 
-    .Bloglorem > p{
-        font-size: 4px;
-    }
+  .Blogtopic {
+    margin-right: 45%;
+  }
 
-    .blogSet{
-        margin-left: -2vh;
-    }
+  .Bloglorem > p {
+    font-size: 4px;
+  }
 
-    .Blogtopic > h2{
-        font-size: 15px !important;
-    }
+  .blogSet {
+    margin-left: -2vh;
+  }
+
+  .Blogtopic > h2 {
+    font-size: 15px !important;
+  }
 }
-
