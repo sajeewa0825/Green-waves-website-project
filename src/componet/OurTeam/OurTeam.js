@@ -26,13 +26,16 @@ const OurTeam = () => {
           <div class="col-sm-6 ourteamCol2">
             <div>
               <p className="aboutdolorem1">
-                In publishing and graphic design, Lorem ipsum is a place text
-                commonly used to demonstrate form of a document
+                “If we love the environment, the environment will protect us”
               </p>
               <p className="aboutdolorem2">
-                In publishing and graphic design, Lorem ipsum is a placeholder
-                text comm used to demonstrate form of a document or a typeface
-                without relying on In publishing and graphic design,
+                Coinciding with the World Environment Day which commenced on 05
+                th June 1972, we are here to address issues affecting the global
+                environment globally and to address environmental protection
+                issues. We have developed this as a platform to raise awareness
+                about the issues facing our environment such as air pollution,
+                illegal wildlife trade, sustainable consumption, sea level rise
+                and food security.
               </p>
             </div>
           </div>
@@ -61,9 +64,9 @@ const OurTeam = () => {
                   We make the world we save our own environment
                 </h3>
                 <p className="missionLorem">
-                  In publishing and graphic design, Lorem ipsum is a placeholder
-                  text comm used to demonstrate form of a document or a typeface
-                  without relying on In publishing and graphic design,
+                  To protect, restore, and enhance healthy environment for
+                  current and future generations while preserving environmental
+                  integrity.
                 </p>
               </div>
             </div>
@@ -79,9 +82,10 @@ const OurTeam = () => {
                 Plant more trees to make world air pollution free
               </h3>
               <p className="missionLorem2">
-                In publishing and graphic design, Lorem ipsum is a placeholder
-                text comm used to demonstrate form of a document or a typeface
-                without relying on In publishing and graphic design,
+                To create an eco-friendly human community while preserving our
+                limited natural resources, adapted to sustainable development
+                for a clean and healthy environment that enhances the quality of
+                life for present and future generations.
               </p>
             </div>
           </div>
