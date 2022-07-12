@@ -1,13 +1,14 @@
 import React from "react";
 import "./Nav.css";
 import { Link } from "react-router-dom";
+import Logo from "./Group 3.svg";
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Bootstrap
+          <img src={Logo} alt="Logo" height="70px" />
         </a>
         <button
           className="navbar-toggler"
@@ -49,9 +50,9 @@ const Nav = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact
-              </a>
+              <Link className="nav-link" to={"/contactUs"}>
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>

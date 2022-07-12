@@ -1,42 +1,37 @@
 .navbar {
-    background: transparent !important;
+  opacity: 96%;
 }
 
-.navbar-nav >li >a{
-    margin-top: 0.2875rem;
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-    color:black !important;
-    border-top: 0.1875rem solid rgba(255, 255, 255, 0);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    
+.navbar-nav > li > a {
+  margin-top: 0.2875rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  color: black !important;
+  border-top: 0.1875rem solid rgba(255, 255, 255, 0);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
-.navbar-nav >li > a.active,.navbar-nav >li > a.active:focus{
-    border-top: 0.1875rem solid #f9ab00;
-    
-
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid #f9ab00;
 }
 
-.navbar-brand{
-    padding: 0 !important;
-    max-width: 17.25rem;
-    
+.navbar-brand {
+  padding: 0 !important;
+  max-width: 17.25rem;
 }
 
-nav a.nav-link{
-    font-size: 1rem;
-    cursor: pointer;
-    letter-spacing: 0.0375rem;
-    
+nav a.nav-link {
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 0.0375rem;
 }
 
-.navbar-nav >li > a:hover{
-    border-top: 0.1875rem solid #ee372a;
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid #478f02;
 }
 
-.navbar-nav{
-    height: 50%;
-    
+.navbar-nav {
+  height: 50%;
 }

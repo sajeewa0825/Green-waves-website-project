@@ -19,7 +19,7 @@ const eventCard = () => {
               style={{ marginTop: 5 }}
             />
             <div className="card-body text-center">
-              <h4 className="card-title">Place</h4>
+              <h4 className="card-title">PLACE</h4>
               <small className="text-muted">
                 <h5>UWU</h5>
               </small>
@@ -37,7 +37,7 @@ const eventCard = () => {
               style={{ marginTop: 5 }}
             />
             <div className="card-body text-center">
-              <h4 className="card-title">Time</h4>
+              <h4 className="card-title">TIME</h4>
               <small className="text-muted">
                 <h5>10:00 AM</h5>
               </small>
@@ -55,7 +55,7 @@ const eventCard = () => {
               style={{ marginTop: 5 }}
             />
             <div className="card-body text-center">
-              <h4 className="card-title">Date</h4>
+              <h4 className="card-title">DATE</h4>
               <small className="text-muted">
                 <h5>August 31</h5>
               </small>

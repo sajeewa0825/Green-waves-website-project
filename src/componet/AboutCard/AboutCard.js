@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutCard.css";
+import { Link } from "react-router-dom";
 
 const AboutCard = () => {
   return (
@@ -15,22 +16,27 @@ const AboutCard = () => {
               <div className="blacklineAbout"></div>
             </div>
             <div className="aboutTopic">
-              <h1>Methenta gelapena tikak danna</h1>
+              <h1>
+                “If we love the environment,the environment will protect us”
+              </h1>
             </div>
             <div className="aboutP">
               <p>
-                In publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate form of a document or a
-                typeface without relying on meaningful content. Lorem ipsum may
-                be used as a placeholder before final copy is available. Lorem
-                ipsum may be used as a placeholder before final copy is
-                available.
+                Coinciding with the World Environment Day which commenced on 05
+                th june 1972, we are here to address issues affecting the global
+                environment globally and to address environmental protection
+                issues.we have developed this as a platform to raise awareness
+                about the issues facing our environment such as air pollution,
+                illegal wildlife trade, sustainable consumption, sea level rise
+                and food security.
               </p>
             </div>
             <div>
-              <button type="button" class="btn btn-success AboutCard-ReadBtn">
-                Learn more
-              </button>
+              <Link to={"/about"}>
+                <button type="button" class="btn btn-success AboutCard-ReadBtn">
+                  Learn more
+                </button>
+              </Link>
             </div>
           </div>
         </div>

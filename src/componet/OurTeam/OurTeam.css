@@ -1,223 +1,223 @@
-.ourteamContainer{
-    margin-top: -10%;
-    margin-bottom: 7%;
-    /* display: flex;
+.ourteamContainer {
+  margin-top: -10%;
+  margin-bottom: 7%;
+  /* display: flex;
     vertical-align: auto; */
-   
-    height: 115vh;
-    background-color: #ffffff
+
+  background-color: #ffffff;
 }
 
-.ourteamRow{
+.ourteamRow {
   margin-left: 10%;
   margin-right: 5%;
-  
+  padding-bottom: 50px;
 }
 
-.leftRow{
+.leftRow {
   margin-top: 33%;
 }
 
-
-
-
-.abouth1{
-    margin-top: 5%;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 120%;
-    color: #1d2130;
+.abouth1 {
+  margin-top: 5%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #1d2130;
 }
 
-.aboutdolorem1{
+.aboutdolorem1 {
   margin-top: 42%;
   margin-left: 5%;
   font-size: 20px;
   font-weight: bold;
-  
 }
 
-.aboutdolorem2{
+.aboutdolorem2 {
   font-size: 16px;
   margin-left: 5%;
   color: #525560;
 }
 
+.aboutImage {
+  width: 1180px;
+  height: 448px;
+  position: relative;
+  margin: auto;
 
+  border-radius: 20px;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/green-waves-f1d66.appspot.com/o/Optimized-aboutBGnew.png?alt=media&token=7c69e2ff-2f56-4ba1-a5b2-33998ae7dc35);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
 
-
-
-
-  
-.aboutImage{
-    width: 1180px;
-    height: 448px;
-    position: relative;
-    margin: auto;
-    
-    border-radius: 20px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/green-waves-f1d66.appspot.com/o/Optimized-aboutBGnew.png?alt=media&token=7c69e2ff-2f56-4ba1-a5b2-33998ae7dc35);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-} 
-  
-.imgContainer{
+/* .imgContainer{
   height: 95vh;
 }
-  
-  
+   */
+
 /* ///////////////Misson Visson/////////////////////// */
 
-.missonContainer{
-    margin-top: -10%;
-    
-    height: 100vh;
-    background-color: #eff7f2
+.missonContainer {
+  margin-top: -10%;
+
+  background-color: #eff7f2;
 }
 
-
-
-.mission{
-  margin-top: 60%;
-  margin-right:5%;
+.mission {
+  margin-top: 100px;
+  margin-right: 5%;
 }
 
-.vision{
-  margin-top: 60%;
-  margin-left:5% ;
+.vision {
+  margin-top: 100px;
+  margin-left: 5%;
 }
 
 .abouttopic {
-font-weight: bold;
-font-size: 14px;
-
+  font-weight: bold;
+  font-size: 14px;
 }
 
-
-.missionTitle{
+.missionTitle {
   /* margin-top: 42%; */
   /* font-size: 20px; */
   font-weight: bold;
 }
 
-.missionLorem{
+.missionLorem {
   font-size: 16px;
   color: #525560;
 }
 
-.missionTitle2{
+.missionTitle2 {
   /* margin-top: 42%; */
   /* font-size: 20px; */
   font-weight: bold;
 }
 
-.missionLorem2{
+.missionLorem2 {
   font-size: 16px;
   color: #525560;
 }
 
+.Teamstyle {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  font-family: "roboto";
+  min-height: 100vh;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  color: #0e0630;
+  margin: 60px 0;
+  position: relative;
+}
 
+.title::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 2px;
+  background-image: linear-gradient(to left, transparent 5%, #726a95);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
+.team-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
 
+.teams {
+  flex: 1 1 250px;
+  margin: 20px;
+  text-align: center;
+  padding: 20 px 10px;
+  cursor: pointer;
+  max-width: 300px;
+  transition: all 0.3s;
+}
 
+.teams:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-20px);
+  border-radius: 6%;
+}
 
+.teams img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 
-  
-  
-  .Teamstyle {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    font-family: "roboto";
-    min-height: 100vh;
-    
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  transition: 1s;
+}
+
+.social-links a:hover {
+  transform: scale(1.5);
+}
+
+.social-links a i {
+  color: rgb(68, 68, 68);
+}
+
+.teams h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #726a95;
+  margin: 15px 0;
+}
+
+.teams p {
+  font-size: 15px;
+  color: #838383;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 992px) {
+  .aboutImage {
+    width: 800px;
+    height: 600px;
   }
-  
-  .title {
-    
-    text-align: center;
-    text-transform: capitalize;
-    color: #0e0630;
-    margin: 60px 0;
-    position: relative;
+}
+@media screen and (max-width: 768px) {
+  .aboutImage {
+    width: 600px;
+    height: 500px;
   }
-  
-  .title::after {
-    content: "";
-    position: absolute;
-    width: 20%;
-    height: 2px;
-    background-image: linear-gradient(to left, transparent 5%, #726a95);
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+}
+@media screen and (max-width: 576px) {
+  .aboutImage {
+    width: 300px;
+    height: 200px;
   }
-  
-  .team-row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 40px 0;
+  .mission {
+    margin-top: 40px;
+    margin-left: 0;
   }
-  
-  .teams {
-    flex: 1 1 250px;
-    margin: 20px;
-    text-align: center;
-    padding: 20 px 10px;
-    cursor: pointer;
-    max-width: 300px;
-    transition: all 0.3s;
+
+  .vision {
+    margin-top: 40px;
+    margin-left: 0;
   }
-  
-  .teams:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    transform: translateY(-20px);
-    border-radius: 6%;
-  }
-  
-  .teams img {
-    display: block;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    
-    border-radius: 50%;
-    margin: 0 auto;
-  }
-  
-  .social-links a {
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    transition: 1s;
-  }
-  
-  .social-links a:hover {
-    transform: scale(1.5);
-  }
-  
-  .social-links a i {
-    color: rgb(68, 68, 68);
-  }
-  
-  .teams h3 {
-    text-transform: uppercase;
-    font-size: 24px;
-    color: #726a95;
-    margin: 15px 0;
-  }
-  
-  .teams p {
-    font-size: 15px;
-    color: #838383;
-    line-height: 1.6;
-  }
+}

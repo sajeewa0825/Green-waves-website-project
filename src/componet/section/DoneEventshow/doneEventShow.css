@@ -30,6 +30,13 @@ hr.doneEventShow_Heading_Hr {
   color: #5ad67d;
   font-weight: bold;
 }
+.doneEventShow_Title {
+  font-size: 42px;
+
+  font-weight: 700;
+
+  color: #1d2130;
+}
 .blog_postsTextReadMore:hover {
   color: #41b963;
 }
@@ -60,6 +67,10 @@ hr.blog_postsTextHeading_HRule {
   font-size: 30px;
   margin-right: 25px;
 }
+.card-body p i {
+  margin-right: 10px;
+}
+
 @media (max-width: 992px) {
   .doneEventShow_Img {
     position: relative;
@@ -100,5 +111,8 @@ hr.blog_postsTextHeading_HRule {
     font-size: 18px;
 
     margin-left: 30px;
+  }
+  .doneEventShow_Title {
+    font-size: 30px;
   }
 }
