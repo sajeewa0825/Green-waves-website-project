@@ -5,7 +5,7 @@ import Logo from "./Group 3.svg";
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg sticky-top shadow-sm">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img src={Logo} alt="Logo" height="70px" />
