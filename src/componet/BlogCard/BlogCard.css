@@ -248,11 +248,12 @@
   }
 
   .Blogtittle > h5 {
-    font-size: 5px;
+    font-size: 8px;
   }
 
   .Blogtopic {
     margin-right: 45%;
+    margin-left: 1vh;
   }
 
   .Bloglorem > p {
@@ -266,4 +267,5 @@
   .Blogtopic > h2 {
     font-size: 15px !important;
   }
+  
 }

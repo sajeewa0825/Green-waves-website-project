@@ -215,4 +215,19 @@
   .WhatWedoContent {
     padding-left: 10%;
   }
+
+  .blacklineWedo {
+    width: 3vh;
+    border-top: 2px solid #1d2130;
+    margin-top: -5.2vh;
+    margin-left: 11vh;
+  }
+
+  .wedotopic{
+    margin-bottom: 4vh;
+  }
+
+  .Wedocard{
+    margin-left: -3vh;
+  }
 }

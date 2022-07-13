@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useRef } from 'react';
 import "./styleContact.css";
+import emailjs from 'emailjs-com';
 
 const ContactUs = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_gds5i2d', 'template_6nr62ae', form.current, 'zC-jA7DMIOelAwpSg')
+      .then((result) => {
+          console.log(result.text);
+          alert("message send")
+          document.getElementById("form").reset();
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
   return (
     <div>
       <div class="container p-3">
@@ -10,7 +27,7 @@ const ContactUs = () => {
             <h1>Contact us</h1>
             <br></br>
             <br></br>
-            <form class="row g-3">
+            <form class="row g-3" ref={form} onSubmit={sendEmail} id="form">
               <div className="row">
                 <div class="col">
                   <label for="inputName" class="form-label">
@@ -45,6 +62,7 @@ const ContactUs = () => {
                     class="form-control"
                     placeholder="Ex:abc@gmail.com"
                     aria-label="Email"
+                    name="user_email"
                   />
                 </div>
                 <div class="col">
@@ -74,7 +92,7 @@ const ContactUs = () => {
                 </div>
               </div>
               <div class="col-12">
-                <button type="submit" class="contactUsBtn">
+                <button type="submit" class="contactUsBtn" >
                   Send
                 </button>
               </div>
