@@ -1,5 +1,6 @@
 import React from "react";
 import "./BlogCard.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -12,7 +13,7 @@ const BlogCard = () => {
 
       <div className="row d-flex justify-content-center">
         <div className="BlogContent col-4 col-md-6">
-          <a href="/blog" className="acls">
+          <Link  to={"/blog"} className="acls">
             <div className="Blogcard bcard1"></div>
 
             <div className="Blogtittle">
@@ -24,11 +25,11 @@ const BlogCard = () => {
                 pollinators.But we need help from concerned people like you.
               </p> */}
             </div>
-          </a>
+          </Link >
         </div>
 
         <div className="BlogContent col-4 col-md-2">
-          <a href="/blog" className="acls">
+          <Link  to={"/blog"} className="acls">
             <div className="Blogcard bcard2"></div>
 
             <div className="Blogtittle">
@@ -41,11 +42,11 @@ const BlogCard = () => {
                 safeguarding our future.
               </p>
             </div> */}
-          </a>
+          </Link >
         </div>
 
         <div className="BlogContent col-4 col-md-2">
-          <a href="/blog" className="acls">
+          <Link  to={"/blog"} className="acls">
             <div className="Blogcard bcard3"></div>
 
             <div className="Blogtittle">
@@ -58,11 +59,11 @@ const BlogCard = () => {
                 long journey!
               </p>
             </div> */}
-          </a>
+          </Link >
         </div>
 
         <div className="BlogContent col-4 col-md-2">
-          <a href="/blog" className="acls">
+          <Link  to={"/blog"} className="acls">
             <div className="Blogcard bcard4"></div>
 
             <div className="Blogtittle">
@@ -70,11 +71,11 @@ const BlogCard = () => {
             </div>
             {/* <div className="Bloglorem">
               <p>
-                Instead of traveling in a way that affects the environment,
+                Instead of traveling in Link  way that affects the environment,
                 choose green tourism
               </p>
             </div> */}
-          </a>
+          </Link >
         </div>
       </div>
     </div>
