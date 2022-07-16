@@ -8,7 +8,7 @@ const BlogCard = () => {
         <h2>Our Latest Blog</h2>
       </div>
 
-      <div className="row">
+      <div className="row d-flex justify-content-center">
         <div className="BlogContent col-4 col-md-6">
           <a href="#" className="acls">
             <div className="Blogcard bcard1"></div>
