@@ -5,22 +5,22 @@ import { Link } from "react-router-dom";
 const AboutCard = () => {
   return (
     <div>
-      <div class="container aboutCardContainer">
+      <div class="container aboutCardContainerHomePage">
         <div class="row">
           <div class="col">
-            <div className="aboutcard"></div>
+            <div className="aboutcardHomePage"></div>
           </div>
-          <div class="col aboutContent">
+          <div class="col aboutContentHomePage">
             <div>
               <p>About us</p>
-              <div className="blacklineAbout"></div>
+              <div className="blacklineAboutHomePage"></div>
             </div>
-            <div className="aboutTopic">
+            <div className="aboutTopicHomePage">
               <h1>
                 “If we love the environment,the environment will protect us”
               </h1>
             </div>
-            <div className="aboutP">
+            <div className="aboutPHomePage">
               <p>
                 Coinciding with the World Environment Day which commenced on 05
                 th june 1972, we are here to address issues affecting the global
