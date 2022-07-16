@@ -1,8 +1,8 @@
-.aboutCardContainer {
+.aboutCardContainerHomePage {
   margin-top: 7%;
 }
 
-.aboutcard {
+.aboutcardHomePage {
   border-radius: 0px 10px 0px 10px;
   background: #36454f;
   width: 50vh;
@@ -14,27 +14,27 @@
   background-repeat: no-repeat;
 }
 
-.blacklineAbout {
+.blacklineAboutHomePage {
   width: 4vh;
   border-top: 2px solid black;
   margin-top: -3.7vh;
   margin-left: 12vh;
 }
 
-.aboutTopic {
+.aboutTopicHomePage {
   margin-top: 4vh;
 }
 
-.aboutP {
+.aboutPHomePage {
   margin-top: 4vh;
 }
 
-.aboutContent {
+.aboutContentHomePage {
   margin-top: 8vh;
 }
 
 @media screen and (max-width: 992px) {
-  .aboutcard {
+  .aboutcardHomePage {
     margin-top: 18%;
     width: 50vh;
     height: 62vh;
@@ -46,7 +46,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .aboutcard {
+  .aboutcardHomePage {
     margin-top: 18%;
     width: 40vh;
     height: 52vh;
@@ -59,94 +59,94 @@
 }
 
 @media screen and (max-width: 780px) {
-  .aboutcard {
+  .aboutcardHomePage {
     margin-top: 4%;
     width: 35vh;
     height: 48vh;
     margin-left: -10%;
   }
 
-  .aboutTopic > h1 {
+  .aboutTopicHomePage > h1 {
     font-size: 20px !important;
   }
 
-  .aboutTopic {
+  .aboutTopicHomePage {
     margin-top: 1vh;
   }
 
-  .aboutP {
+  .aboutPHomePage {
     margin-top: 2vh;
   }
 
-  .aboutP > p {
+  .aboutPHomePage > p {
     font-size: 15px;
   }
 
-  .aboutContent {
+  .aboutContentHomePage {
     margin-top: 1vh;
   }
-  .blacklineAbout {
+  .blacklineAboutHomePage {
     margin-left: 10vh;
   }
 }
 
 @media screen and (max-width: 620px) {
-  .aboutcard {
+  .aboutcardHomePage {
     margin-top: 4%;
     width: 30vh;
     height: 38vh;
     margin-left: 10%;
   }
 
-  .aboutTopic > h1 {
+  .aboutTopicHomePage > h1 {
     font-size: 15px;
   }
 
-  .aboutTopic {
+  .aboutTopicHomePage {
     margin-top: 1vh;
   }
 
-  .aboutP {
+  .aboutPHomePage {
     margin-top: 2vh;
   }
 
-  .aboutP > p {
+  .aboutPHomePage > p {
     font-size: 12px;
   }
 
-  .aboutContent {
+  .aboutContentHomePage {
     margin-top: 1vh;
   }
-  .blacklineAbout {
+  .blacklineAboutHomePage {
     margin-left: 10vh;
   }
 }
 
 @media screen and (max-width: 520px) {
-  .aboutcard {
+  .aboutcardHomePage {
     margin-top: 4%;
     width: 25vh;
     height: 28vh;
     margin-left: 10%;
   }
 
-  .aboutTopic > h1 {
+  .aboutTopicHomePage > h1 {
     font-size: 12px;
   }
 
-  .aboutTopic {
+  .aboutTopicHomePage {
     margin-top: 1vh;
   }
 
-  .aboutP {
+  .aboutPHomePage {
     margin-top: 2vh;
   }
 
-  .aboutP > p {
+  .aboutPHomePage > p {
     font-size: 8px;
   }
 
-  .aboutContent {
+  .aboutContentHomePage {
     margin-top: 1vh;
   }
 
@@ -157,36 +157,36 @@
     margin-top: -2%;
   }
 
-  .blacklineAbout {
+  .blacklineAboutHomePage {
     margin-left: 10vh;
   }
 }
 
 @media screen and (max-width: 440px) {
-  .aboutcard {
+  .aboutcardHomePage {
     margin-top: 4%;
     width: 20vh;
     height: 30vh;
     margin-left: -1%;
   }
 
-  .aboutTopic > h1 {
+  .aboutTopicHomePage > h1 {
     font-size: 12px !important;
   }
 
-  .aboutTopic {
+  .aboutTopicHomePage {
     margin-top: 2vh;
   }
 
-  .aboutP {
+  .aboutPHomePage {
     margin-top: 2vh;
   }
 
-  .aboutP > p {
+  .aboutPHomePage > p {
     font-size: 8px;
   }
 
-  .aboutContent {
+  .aboutContentHomePage {
     margin-top: 1vh;
   }
 
@@ -197,7 +197,7 @@
     margin-top: -2%;
   }
 
-  .blacklineAbout {
+  .blacklineAboutHomePage {
     margin-left: 10vh;
   }
 }
