@@ -4,7 +4,7 @@ import "./Wedo.css";
 const Wedo = () => {
   return (
     <div>
-      <div class=" box">
+      <div class="container-fluid box">
         <div class="row">
           <div class="col WedoContent">
             <div>
